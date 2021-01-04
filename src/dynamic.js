@@ -195,7 +195,7 @@ class App extends Component {
             identity="name"
             value="amt"
             colors={{ scheme: 'set2' }}
-            colorBy="depth"
+            colorBy="name"
             padding={6}
             labelTextColor={{ from: 'color', modifiers: [ [ 'darker', 1 ] ] }}
             borderWidth={2}
@@ -211,6 +211,7 @@ class App extends Component {
                     spacing: 8
                 }
             ]}
+            fill={[ { match: { depth: 1 }, id: 'lines' } ]}
             animate={true}
             motionStiffness={90}
             motionDamping={12}
@@ -253,10 +254,10 @@ class App extends Component {
         return (
             <main className="content">
                 {this.pageTitleBar()}
-                <div className="custom-container">
+                <div className="custom-container opac-window">
                     <div className="row">
                         <div className="col">
-                            <div className="title col-title">
+                            <div className="title col-title opac-window-text">
                                 <h3>Airfield Data</h3>
                             </div>
                             <div className="btn-mygroup">
@@ -268,7 +269,7 @@ class App extends Component {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="title col-title">
+                            <div className="title col-title opac-window-text">
                                 <h3>Player Data</h3>
                             </div>
                             <div className="btn-mygroup">
@@ -278,7 +279,7 @@ class App extends Component {
                                 <button className="btn btn-danger" onClick={() => this.orderByDeaths()}>Deaths</button>
                                 <button className="btn btn-info" onClick={() => this.orderByTime()}>Time</button>
                             </div>
-                            <div className="nexttest player-data">
+                            <div className="nexttest player-data example">
                                 {this.makeFlightData()}
                             </div>
                         </div>
