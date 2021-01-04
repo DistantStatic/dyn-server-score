@@ -159,10 +159,26 @@ class App extends Component {
                             <h3 className="card-title">{pname}</h3>
                             <h5 className="card-sub-title mb-2 text-muted">Flight Time: {pdict["SeatTime"]}</h5>
                             <div className="card-section">
-                                <p><b>Air Kills: </b>{pdict["Air Kills"]}</p>
-                                <p><b>Building Kills: </b>{pdict["Building Kills"]}</p>
-                                <p><b>Ejections: </b>{pdict["Ejections"]}</p>
-                                <p><b>Deaths: </b>{pdict["Deaths"]}</p>
+                                <div className="row row-cols-3">
+                                    <div className="col stat">
+                                        <span><b>Air Kills: </b>{pdict["Air Kills"]}</span>
+                                    </div>
+                                    <div className="col stat">
+                                        <span><b>Deaths: </b>{pdict["Deaths"]}</span>
+                                    </div>
+                                    <div className="col stat">   
+                                        <span><b>Kill/Death Ratio: </b>{pdict["KtoDr"]}</span>
+                                    </div>
+                                    <div className="col stat">
+                                        <span><b>Ground Kills: </b>{pdict["Unit Kills"]}</span>
+                                    </div>
+                                    <div className="col stat">  
+                                        <span><b>Building Kills: </b>{pdict["Building Kills"]}</span>
+                                    </div>
+                                    <div className="col stat">  
+                                        <span><b>Ejections: </b>{pdict["Ejections"]}</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
