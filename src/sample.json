@@ -1,0 +1,60 @@
+{
+    "Base Strength": {
+        "bspaceData": {
+            "blue":{
+                "air":{
+                    "inair":4,
+                    "ong":3
+                },
+                "base":{
+                    "Abu al-Duhur":{
+                        "str":22,
+                        "types":{
+                            "M 818":1,
+                            "Paratrooper RPG-16":2,
+                            "Patriot ln":2,
+                            "Soldier M4":1,
+                            "Vulcan":1
+                            },
+                        "units":7
+                    }
+                }                    
+            }
+        }
+    },
+    "Base Fuel": {
+        "Al Qusayr": {
+                "amt":67.304099121099,
+                "co":0,
+                "fc":"000000006E24ED00",
+                "id":2,
+                "v":false}
+        },
+    "Player Stuff": {
+        "Hollow":{
+            "Air Kills":0,
+            "Building Kills":0,
+            "CratesLoaded":0,
+            "Create":0,
+            "Deaths":0,
+            "Ejections":0,
+            "flighttime":{
+                "f_time":0,
+                "f_time_t":0,
+                "t_time_in":0,
+                "t_time_out":0
+                },
+            "f_time_s":31.628,
+            "Innocent Kills":0,
+            "Kills":0,
+            "KtoDr":0,
+            "Score":0,
+            "ScoreSpend":0,
+            "SeatTime":"0h00m",
+            "Ship Kills":0,
+            "Troops":0,
+            "Unit Kills":0
+        }
+
+    }
+}

@@ -1,13 +1,78 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Highland_Peak%2C_Sierra_Nevada_Range%2C_Alpine_County%2C_California_\(21384522330\).jpg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.first {
+    height: 70vh;
+    width: 70vh;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.site-title {
+    text-align: center;
+}
+
+.title-group {
+    margin-bottom: 1em;
+}
+
+.col-title {
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+/*.card {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width:20em;
+    max-width: 100%;
+    padding-left: 1em;
+    background-color: whitesmoke;
+}
+*/
+
+.card {
+    margin-bottom: 2em;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+.card-sub-title {
+    border-bottom: 1px solid #eee;
+    max-width: 80%;
+}
+
+.btn {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.btn-mygroup {
+    margin: .5em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Not Mine */
+.centered-and-flexed {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    height: 500px;
+    width: 500px;
+}
+
+.player-data {
+    height: 70vh;
+    overflow: scroll;
+}
+
+.custom-container {
+    margin-left: 5em;
+    margin-right: 5em;
 }
