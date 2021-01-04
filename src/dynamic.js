@@ -8,7 +8,11 @@ import sdump from "./dump_skynet.json"
 
 const dataaa = { "asdf": 1234};
 const dynadata = { "Al Qusayr" :{"amt":67.304099121099,"co":0,"fc":"000000006E24ED00","id":2,"v":false}, "Aleppo" :{"amt":513.549,"co":0,"fc":"0000000DF582FF50","id":23,"v":false},"Bassel Al-Assad":{"amt":786.18481982422,"co":0,"fc":"0000000DF5812270","id":17,"v":false},"Hama":{"amt":765.55572253418,"co":0,"fc":"000000006E273010","id":10,"v":false},"Hatay":{"amt":72.886288574219,"co":0,"fc":"000000006E2663B0","id":11,"v":false},"Incirlik":{"amt":569.508,"co":0,"fc":"000000006E2685C0","id":12,"v":false},"Jirah":{"amt":100,"co":0,"fc":"0000000DF58188A0","id":13,"v":false},"Minakh":{"amt":25,"co":0,"fc":"0000000DF5836580","id":22,"v":false}}
-
+const colorSchemes = {
+    "blue": "blues",
+    "red": "reds",
+    "fuel": "blues"
+}
 class App extends Component {
     
     constructor(props) {
@@ -18,10 +22,14 @@ class App extends Component {
             dataDump: [],
             skynetDump: {},
             fuelDataJSON: {},
-            fuelDataChart: [{"x": "asdf", "y": 1234}],
+            mainDataChart: [],
+            chartCircleColorBy: "depth", //depth or name
+            chartCircleLines: true,
+            charCircleColors: colorSchemes["blue"],
+            chartMotionDamp: 2,
             baseCount: 0,
             nivoFuel: {
-                "name": "nivo",
+                "name": "xsaf",
                 "color": "hsl(27, 70%, 50%)",
                 "children": 
                     [ 
@@ -61,18 +69,28 @@ class App extends Component {
             })
         })
         let replacement = {
-            "name": "nivo",
+            "name": "xsaf",
                 "color": "hsl(27, 70%, 50%)",
                 "children": formatBaseList
                 }
-        this.setState({fuelDataChart: replacement})
+        this.setState({
+                chartMotionDamp: 2,
+                mainDataChart: replacement, 
+                chartCircleColorBy: "name", 
+                chartCircleLines: true, 
+                charCircleColors: colorSchemes["blue"]
+            })
     }
 
     giveBaseFuel = () => {
-        let d = {name: "XSAF", color:"hsl(27, 70%, 50%)", children: []};
+        let replacement = {
+            name: "xsaf", 
+            color:"hsl(27, 70%, 50%)", 
+            children: []
+        };
         let count = 0;
         Object.keys(dynadata).map(function(key, index) {
-            d["children"].push( 
+            replacement["children"].push( 
                 {
                     name: key,
                     color: "hsl(84, 70%, 50%)",
@@ -81,8 +99,14 @@ class App extends Component {
             )
             count += 1;
         });
-        this.setState({BaseCount: count});
-        this.setState({fuelDataChart: d})
+        this.setState({
+            BaseCount: count,
+            chartMotionDamp: 30,
+            mainDataChart: replacement, 
+            chartCircleColorBy: "name", 
+            chartCircleLines: false,
+            charCircleColors: colorSchemes["fuel"]
+        })
     }
 
     digestSkynet = (d) => {
@@ -111,8 +135,6 @@ class App extends Component {
 
     orderByKDR = () => {
         let temp = this.state.dataDump
-        console.log("LOOK OVER HERE")
-        console.log(temp);
         temp.forEach((entry, index) =>{
             if (temp[index]["KtoDr"] > 1) {
                 console.log("theres data");
@@ -138,11 +160,6 @@ class App extends Component {
             return b["f_time_s"] - a["f_time_s"]
         })
         this.setState({dataDump: temp})
-    }
-
-    parseMeData = () => {
-        this.setState({fuelDataJSON: dynadata});
-        
     }
 
     makeFlightData = () => {
@@ -194,8 +211,8 @@ class App extends Component {
             margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
             identity="name"
             value="amt"
-            colors={{ scheme: 'set2' }}
-            colorBy="name"
+            colors={{ scheme: this.state.charCircleColors }}
+            colorBy={this.state.chartCircleColorBy}
             padding={6}
             labelTextColor={{ from: 'color', modifiers: [ [ 'darker', 1 ] ] }}
             borderWidth={2}
@@ -203,7 +220,7 @@ class App extends Component {
             defs={[
                 {
                     id: 'lines',
-                    type: 'patternLines',
+                    type: 'patternDots',
                     background: 'none',
                     color: 'inherit',
                     rotation: -45,
@@ -211,9 +228,9 @@ class App extends Component {
                     spacing: 8
                 }
             ]}
-            fill={[ { match: { depth: 1 }, id: 'lines' } ]}
+            fill={ this.state.chartCircleLines ? [ { match: { depth: 1 }, id: 'lines' } ] : []}
             animate={true}
-            motionStiffness={90}
+            motionStiffness={80}
             motionDamping={12}
         />
     )
@@ -261,11 +278,11 @@ class App extends Component {
                                 <h3>Airfield Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                <button className="btn btn-info" onClick={() => this.giveBlueBaseStrength(sdump)}>Base Strength</button>
-                                <button className="btn btn-info" onClick={() => this.giveBaseFuel()}>Base Fuel</button>
+                                <button className="btn btn-info" onClick={() => this.giveBlueBaseStrength(sdump)}>Blue Strength</button>
+                                <button className="btn btn-info" onClick={() => this.giveBaseFuel()}>Blue Fuel</button>
                             </div>
                             <div className="first">
-                                {this.MyResponsiveBubbleHtml(this.state.fuelDataChart)}
+                                {this.MyResponsiveBubbleHtml(this.state.mainDataChart)}
                             </div>
                         </div>
                         <div className="col">

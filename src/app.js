@@ -1,6 +1,7 @@
 // install (please make sure versions match peerDependencies)
 // yarn add @nivo/core @nivo/circle-packing
 import { ResponsiveBubble } from '@nivo/circle-packing'
+import {XYPlot, XAxis, YAxis, HorizontalGridLines, Treemap, HexbinSeries, HeatmapSeries, MarkSeries, LineSeries, LabelSeries, HorizontalBarSeries, VerticalBarSeries, PolygonSeries} from 'react-vis';
 import React from 'react';
 // make sure parent container have a defined height when using
 // responsive component, otherwise height will be 0 and
@@ -52,11 +53,29 @@ export default class App extends React.Component {
         };
     }
 
+    makeGraph = () => {
+      return (
+        <XYPlot
+          width={300}
+          height={300}
+          xType="ordinal">
+          <HorizontalGridLines />
+          <VerticalBarSeries
+            data={[
+              {x: "test", y: 10},
+              {x: 3, y: 5},
+              {x: "4", y: 15}
+            ]}/>
+          <XAxis />
+          <YAxis />
+        </XYPlot>
+      )
+    }
     
     render() {
       return (
         <div className="centered-and-flexed">
-            {this.MyResponsiveBubbleHtml(this.state.col)}
+            {this.makeGraph()}
         </div>
       );
     }
