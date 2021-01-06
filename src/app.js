@@ -5,6 +5,8 @@ import test from "./test.json"
 import dump from "./dump.json"
 import pdump from "./dump_player.json"
 import sdump from "./dump_skynet.json"
+import { Button } from "bootstrap";
+import PlayerSearchModal from "./searchModal"
 
 const dataaa = { "asdf": 1234};
 const dynadata = { "Al Qusayr" :{"amt":67.304099121099,"co":0,"fc":"000000006E24ED00","id":2,"v":false}, "Aleppo" :{"amt":513.549,"co":0,"fc":"0000000DF582FF50","id":23,"v":false},"Bassel Al-Assad":{"amt":786.18481982422,"co":0,"fc":"0000000DF5812270","id":17,"v":false},"Hama":{"amt":765.55572253418,"co":0,"fc":"000000006E273010","id":10,"v":false},"Hatay":{"amt":72.886288574219,"co":0,"fc":"000000006E2663B0","id":11,"v":false},"Incirlik":{"amt":569.508,"co":0,"fc":"000000006E2685C0","id":12,"v":false},"Jirah":{"amt":100,"co":0,"fc":"0000000DF58188A0","id":13,"v":false},"Minakh":{"amt":25,"co":0,"fc":"0000000DF5836580","id":22,"v":false}}
@@ -18,6 +20,7 @@ class App extends Component {
     constructor(props) {
         super()
         this.state = {
+            searchModal: false,
             playerDump: {},
             dataDump: [],
             skynetDump: {},
@@ -37,6 +40,16 @@ class App extends Component {
                     ]
                 }
         }
+    }
+
+    toggle = () => {
+        this.setState({ modal: !this.state.modal });
+    }
+      
+    componentDidMount = () => {
+        this.giveBlueBaseStrength(sdump);
+        this.digest(dump);
+        this.digestSkynet(sdump);
     }
 
     digest = (d) => {
@@ -261,12 +274,6 @@ class App extends Component {
         )
     }
 
-    componentDidMount = () => {
-        this.giveBlueBaseStrength(sdump);
-        this.digest(dump);
-        this.digestSkynet(sdump);
-    }
-
     render() {
         return (
             <main className="content">
@@ -278,8 +285,8 @@ class App extends Component {
                                 <h3>Airfield Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                <button className="btn btn-info" onClick={() => this.giveBlueBaseStrength(sdump)}>Blue Strength</button>
-                                <button className="btn btn-info" onClick={() => this.giveBaseFuel()}>Blue Fuel</button>
+                                <button className="my-btn btn btn-info" onClick={() => this.giveBlueBaseStrength(sdump)}>Blue Strength</button>
+                                <button className="my-btn btn btn-info" onClick={() => this.giveBaseFuel()}>Blue Fuel</button>
                             </div>
                             <div className="first">
                                 {this.MyResponsiveBubbleHtml(this.state.mainDataChart)}
@@ -290,17 +297,26 @@ class App extends Component {
                                 <h3>Player Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                <button className="btn btn-primary" onClick={() => this.digest(dump)}>Refresh Data</button>
-                                <button className="btn btn-info" onClick={() => this.orderByKDR()}>Kill/Death</button>
-                                <button className="btn btn-success" onClick={() => this.orderByKills()}>Kills</button>
-                                <button className="btn btn-danger" onClick={() => this.orderByDeaths()}>Deaths</button>
-                                <button className="btn btn-info" onClick={() => this.orderByTime()}>Time</button>
+                                <button className="my-btn btn btn-primary" onClick={() => this.digest(dump)}>Refresh Data</button>
+                                <button className="my-btn btn btn-info" onClick={() => this.orderByKDR()}>Kill/Death</button>
+                                <button className="my-btn btn btn-success" onClick={() => this.orderByKills()}>Kills</button>
+                                <button className="my-btn btn btn-danger" onClick={() => this.orderByDeaths()}>Deaths</button>
+                                <button className="my-btn btn btn-info" onClick={() => this.orderByTime()}>Time</button>
+                                <button class="my-btn btn btn-secondary" onClick={() => this.toggle()}>Search</button>
                             </div>
                             <div className="nexttest player-data example">
                                 {this.makeFlightData()}
                             </div>
                         </div>
                     </div>
+                    
+                    {this.state.modal ? (
+                        <PlayerSearchModal
+                            searchList={this.state.dataDump}
+                            toggle={this.toggle}
+                            onSave={this.handleSubmit}
+                            />
+                        ) : null}
                 </div>
             </main>
         )
