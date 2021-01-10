@@ -1,2 +1,2 @@
 # XSAF Dynamic DCS Server Data
-Frontend side of the server data
+Frontend with example data of the Data Display for the DCS community dynamic server.
