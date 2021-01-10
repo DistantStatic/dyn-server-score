@@ -136,11 +136,6 @@ class App extends Component {
 
     orderByKDR = () => {
         let temp = this.state.dataDump
-        temp.forEach((entry, index) =>{
-            if (temp[index]["KtoDr"] > 1) {
-                console.log("theres data");
-            }
-        })
         temp.sort((a, b) => {
             return b["KtoDr"] - a["KtoDr"]
         })
