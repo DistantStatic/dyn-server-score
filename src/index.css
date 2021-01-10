@@ -107,7 +107,7 @@ body {
 }
 
 .player-data {
-    height: 70vh;
+    height: 68vh;
     overflow-y: scroll;
 }
 
@@ -142,4 +142,19 @@ body {
 .no-scrollbar {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+}
+
+.scroll-test::-webkit-scrollbar {
+    width: 1em;               /* width of the entire scrollbar */
+}
+  
+.scroll-test::-webkit-scrollbar-track {
+    background: rgba(235, 254, 255, 60%);        /* color of the tracking area */
+    border-radius: 20px;
+}
+  
+.scroll-test::-webkit-scrollbar-thumb {
+    background-color: rgba(235, 254, 255);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(91, 230, 255);  /* creates padding around scroll thumb */
 }

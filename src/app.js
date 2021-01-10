@@ -13,6 +13,7 @@ const colorSchemes = {
     "red": "reds",
     "fuel": "blues"
 }
+
 class App extends Component {
     
     constructor(props) {
@@ -39,6 +40,7 @@ class App extends Component {
         }
     }
 
+    // Toggles the player search modal
     toggle = () => {
         this.setState({ modal: !this.state.modal });
     }
@@ -49,7 +51,7 @@ class App extends Component {
         this.giveBlueBaseStrength(Papa_Dump)
     }
 
-    //player data
+    // Formats player data for makeFlightData()
     digest = (d) => {
         let formatted = [];
         Object.keys(d).forEach((key) => {
@@ -58,6 +60,7 @@ class App extends Component {
         this.setState({dataDump: formatted});
     }
 
+    // Formats and sets as default Base Strength in the Nivo Bubblegraph
     giveBlueBaseStrength = (data) => {
         let baseDict = data["BaseData"]["blueCoalition"]["baseData"]
         let formatedBaseList = [];
@@ -157,6 +160,7 @@ class App extends Component {
         this.setState({dataDump: temp})
     }
 
+    // Creates Player Data Cards
     makeFlightData = () => {
         let pname = ""
         let pdict = {}
@@ -200,6 +204,7 @@ class App extends Component {
         return ret
     }
 
+    // Nivo Bubble Graph to show Base Strength and Fuel
     MyResponsiveBubbleHtml = (d) => (
         <ResponsiveBubble
             root={d}
@@ -230,6 +235,7 @@ class App extends Component {
         />
     )
 
+    // Title Bar
     pageTitleBar = () => {
         return (
             <div className="title-group">
@@ -273,7 +279,7 @@ class App extends Component {
                                 <button className="my-btn btn btn-info" onClick={() => this.orderByTime()}>Time</button>
                                 <button class="my-btn btn btn-secondary" onClick={() => this.toggle()}>Search</button>
                             </div>
-                            <div className="nexttest player-data no-scrollbar">
+                            <div className="nexttest player-data scroll-test">
                                 {this.makeFlightData()}
                             </div>
                         </div>

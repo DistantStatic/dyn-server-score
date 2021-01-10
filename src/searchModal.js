@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {
-    Button,
     Modal,
     ModalHeader,
     ModalBody,
@@ -29,7 +28,7 @@ export default class PlayerSearchModal extends Component {
     }
 
     handleChange = (e) => {
-        let { name, value } = e.target;
+        let { value } = e.target;
         this.setState({searchTerm: value});
         this.searchThings(value)
     };
@@ -43,8 +42,11 @@ export default class PlayerSearchModal extends Component {
     playerSelect = (e) => {
         console.log(e.target.id)
         let test = e.target.id.valueOf()
-        e.target.className = (e.target.className.includes("selected")) ? "my-centered-text search-results-item" : ( "selected " + e.target.className );
-        this.setState({activePlayer: this.state.resultList[test], activeElement: e})
+        e.target.className = ("selected " + e.target.className );
+        if (Object.keys(this.state.activeElement).length > 0) {
+            this.state.activeElement.classList.remove("selected");
+        }
+        this.setState({activePlayer: this.state.resultList[test], activeElement: e.target})
     }
 
     handleResults = (response) => {
