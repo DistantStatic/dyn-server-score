@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DistantStatic/dyn-server-score/static/css/main.04b1adec.chunk.css",
+    "main.js": "/DistantStatic/dyn-server-score/static/js/main.741ea680.chunk.js",
+    "main.js.map": "/DistantStatic/dyn-server-score/static/js/main.741ea680.chunk.js.map",
+    "runtime-main.js": "/DistantStatic/dyn-server-score/static/js/runtime-main.dd0c7a47.js",
+    "runtime-main.js.map": "/DistantStatic/dyn-server-score/static/js/runtime-main.dd0c7a47.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/DistantStatic/dyn-server-score/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.73bd1a5c.chunk.js": "/DistantStatic/dyn-server-score/static/js/2.73bd1a5c.chunk.js",
+    "static/js/2.73bd1a5c.chunk.js.map": "/DistantStatic/dyn-server-score/static/js/2.73bd1a5c.chunk.js.map",
+    "index.html": "/DistantStatic/dyn-server-score/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/DistantStatic/dyn-server-score/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.04b1adec.chunk.css.map": "/DistantStatic/dyn-server-score/static/css/main.04b1adec.chunk.css.map",
+    "static/js/2.73bd1a5c.chunk.js.LICENSE.txt": "/DistantStatic/dyn-server-score/static/js/2.73bd1a5c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd0c7a47.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.73bd1a5c.chunk.js",
+    "static/css/main.04b1adec.chunk.css",
+    "static/js/main.741ea680.chunk.js"
+  ]
+}
