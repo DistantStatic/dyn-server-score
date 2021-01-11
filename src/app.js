@@ -253,7 +253,7 @@ class App extends Component {
                 {this.pageTitleBar()}
                 <div className="custom-container opac-window">
                     <div className="row">
-                        <div className="col">
+                        <div className="col col-md-6">
                             <div className="title col-title opac-window-text">
                                 <h3>Airfield Data</h3>
                             </div>
@@ -261,11 +261,11 @@ class App extends Component {
                                 <button className="my-btn btn btn-info" onClick={() => this.giveBlueBaseStrength(Papa_Dump)}>Blue Strength</button>
                                 <button className="my-btn btn btn-info" onClick={() => this.giveBaseFuel()}>Blue Fuel</button>
                             </div>
-                            <div className="first">
+                            <div className="container first">
                                 {this.MyResponsiveBubbleHtml(this.state.mainDataChart)}
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col col-md-6">
                             <div className="title col-title opac-window-text">
                                 <h3>Player Data</h3>
                             </div>
