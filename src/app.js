@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import {
     Card,
     CardBody,
+    Col,
+    Container,
+    Row
 } from "reactstrap";
 import { ResponsiveBubble } from '@nivo/circle-packing'
 import PlayerSearchModal from "./searchModal"
@@ -173,26 +176,26 @@ class App extends Component {
                             <h3 className="card-title">{pname}</h3>
                             <h5 className="card-sub-title mb-2 text-muted">Flight Time: {pdict["SeatTime"]}</h5>
                             <div className="card-section">
-                                <div className="row row-cols-3">
-                                    <div className="col stat">
+                                <Row className="row-cols-3">
+                                    <Col className="stat">
                                         <span><b>Air Kills: </b>{pdict["Air Kills"]}</span>
-                                    </div>
-                                    <div className="col stat">
+                                    </Col>
+                                    <Col className="stat">
                                         <span><b>Deaths: </b>{pdict["Deaths"]}</span>
-                                    </div>
-                                    <div className="col stat">   
+                                    </Col>
+                                    <Col className="stat">
                                         <span><b>Kill/Death Ratio: </b>{pdict["KtoDr"]}</span>
-                                    </div>
-                                    <div className="col stat">
+                                    </Col>
+                                    <Col className="stat">
                                         <span><b>Ground Kills: </b>{pdict["Unit Kills"]}</span>
-                                    </div>
-                                    <div className="col stat">  
+                                    </Col>
+                                    <Col className="stat">
                                         <span><b>Building Kills: </b>{pdict["Building Kills"]}</span>
-                                    </div>
-                                    <div className="col stat">  
+                                    </Col>
+                                    <Col className="stat">  
                                         <span><b>Ejections: </b>{pdict["Ejections"]}</span>
-                                    </div>
-                                </div>
+                                    </Col>
+                                </Row>
                             </div>
                         </CardBody>
                     </Card>
@@ -252,8 +255,8 @@ class App extends Component {
             <main className="content">
                 {this.pageTitleBar()}
                 <div className="custom-container opac-window">
-                    <div className="row">
-                        <div className="col col-md-6">
+                    <Row>
+                        <Col md="6">
                             <div className="title col-title opac-window-text">
                                 <h3>Airfield Data</h3>
                             </div>
@@ -261,11 +264,11 @@ class App extends Component {
                                 <button className="my-btn btn btn-info" onClick={() => this.giveBlueBaseStrength(Papa_Dump)}>Blue Strength</button>
                                 <button className="my-btn btn btn-info" onClick={() => this.giveBaseFuel()}>Blue Fuel</button>
                             </div>
-                            <div className="container first">
+                            <Container className="first">
                                 {this.MyResponsiveBubbleHtml(this.state.mainDataChart)}
-                            </div>
-                        </div>
-                        <div className="col col-md-6">
+                            </Container>
+                        </Col>
+                        <Col md="6">
                             <div className="title col-title opac-window-text">
                                 <h3>Player Data</h3>
                             </div>
@@ -280,8 +283,8 @@ class App extends Component {
                             <div className="nexttest player-data scroll-test">
                                 {this.makeFlightData()}
                             </div>
-                        </div>
-                    </div>
+                        </Col>
+                    </Row>
                     
                     {this.state.modal ? (
                         <PlayerSearchModal
