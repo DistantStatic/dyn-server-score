@@ -1,0 +1,159 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/Highland_Peak%2C_Sierra_Nevada_Range%2C_Alpine_County%2C_California_(21384522330).jpg");
+}
+
+.first {
+    height: 70vh;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.site-title {
+    text-align: center;
+}
+
+.title-group {
+    margin-bottom: 1em;
+}
+
+.col-title {
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+.card-section .row {
+    margin-top: 1.25em;
+}
+
+.card-section .col {
+    margin-bottom: .5em;
+}
+
+/*.card {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width:20em;
+    max-width: 100%;
+    padding-left: 1em;
+    background-color: whitesmoke;
+}
+*/
+
+.card {
+    margin-bottom: 2em;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+.card-sub-title {
+    border-bottom: 1px solid #eee;
+    max-width: 80%;
+}
+
+.btn {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.btn-mygroup {
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Not Mine */
+.centered-and-flexed {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    height: 500px;
+    width: 500px;
+}
+
+.centered {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.my-align-right {
+    margin-left: auto;
+}
+
+.my-centered-text {
+    text-align: center;
+}
+
+.search-results-item {
+    border: 1px solid #eee;
+    border-radius: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    transition: background-color 1s linear ;
+}
+
+.selected {
+    background-color: rgba(33, 68, 182, 0.514);
+    transition: background-color 1s linear ;
+}
+
+.modal-results-list {
+    max-height: 55vh;
+    overflow-y: scroll;
+}
+
+.player-data {
+    height: 68vh;
+    overflow-y: scroll;
+}
+
+.custom-container {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: .5em;
+    
+}
+
+.opac-window {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.opac-window-text {
+    color: #fff;
+}
+
+.modal-search-body{
+    max-height: 54vh;
+    overflow-y: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scroll-test::-webkit-scrollbar {
+    width: 1em;               /* width of the entire scrollbar */
+}
+  
+.scroll-test::-webkit-scrollbar-track {
+    background: rgba(235, 254, 255, 60%);        /* color of the tracking area */
+    border-radius: 20px;
+}
+  
+.scroll-test::-webkit-scrollbar-thumb {
+    background-color: rgba(235, 254, 255);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(91, 230, 255);  /* creates padding around scroll thumb */
+}
