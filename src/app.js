@@ -273,8 +273,8 @@ class App extends Component {
                                 <h3>Player Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                <button className="my-btn btn btn-primary" onClick={() => this.digest(Papa_Dump.PlayerScores)}>Refresh Data</button>
-                                <button className="my-btn btn btn-info" onClick={() => this.orderByKDR()}>Kill/Death</button>
+                                {/*<button className="my-btn btn btn-primary" onClick={() => this.digest(Papa_Dump.PlayerScores)}>Refresh Data</button>*/}
+                                <button className="my-btn btn btn-primary" onClick={() => this.orderByKDR()}>Kill/Death</button>
                                 <button className="my-btn btn btn-success" onClick={() => this.orderByKills()}>Kills</button>
                                 <button className="my-btn btn btn-danger" onClick={() => this.orderByDeaths()}>Deaths</button>
                                 <button className="my-btn btn btn-info" onClick={() => this.orderByTime()}>Time</button>
