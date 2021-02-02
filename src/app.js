@@ -184,7 +184,7 @@ class App extends Component {
                                         <span><b>Deaths: </b>{pdict["Deaths"]}</span>
                                     </Col>
                                     <Col className="stat">
-                                        <span><b>Kill/Death Ratio: </b>{pdict["KtoDr"]}</span>
+                                        <span><b>Kill/Death Ratio: </b>{pdict["KtoDr"].toFixed(2)}</span>
                                     </Col>
                                     <Col className="stat">
                                         <span><b>Ground Kills: </b>{pdict["Unit Kills"]}</span>
