@@ -1,17 +1,20 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import {
     Card,
     CardBody,
     Col,
     Container,
-    Row
+    Row,
+    DropdownMenu,
+    DropdownItem,
+    DropdownToggle,
+    UncontrolledButtonDropdown
 } from "reactstrap";
-import { ResponsiveBubble } from '@nivo/circle-packing'
-import PlayerSearchModal from "./searchModal"
-import Papa_Dump from './NewData.json'
-
-// Temp fuel data
-const dynadata = { "Al Qusayr" :{"amt":67.304099121099,"co":0,"fc":"000000006E24ED00","id":2,"v":false}, "Aleppo" :{"amt":513.549,"co":0,"fc":"0000000DF582FF50","id":23,"v":false},"Bassel Al-Assad":{"amt":786.18481982422,"co":0,"fc":"0000000DF5812270","id":17,"v":false},"Hama":{"amt":765.55572253418,"co":0,"fc":"000000006E273010","id":10,"v":false},"Hatay":{"amt":72.886288574219,"co":0,"fc":"000000006E2663B0","id":11,"v":false},"Incirlik":{"amt":569.508,"co":0,"fc":"000000006E2685C0","id":12,"v":false},"Jirah":{"amt":100,"co":0,"fc":"0000000DF58188A0","id":13,"v":false},"Minakh":{"amt":25,"co":0,"fc":"0000000DF5836580","id":22,"v":false}}
+import { ResponsiveBubble } from '@nivo/circle-packing';
+import PlayerSearchModal from "./searchModal";
+import Papa_Dump from './Papa_Export.json';
+import Sierra_Dump from './Sierra_Export.json';
+import Alpha_Dump from './Alpha_Export.json';
 
 // Color schemes for graph
 const colorSchemes = {
@@ -20,12 +23,19 @@ const colorSchemes = {
     "fuel": "blues"
 }
 
+const data_sources = {
+    "Alpha": Alpha_Dump,
+    "Papa": Papa_Dump,
+    "Sierra": Sierra_Dump
+}
+
 class App extends Component {
     
     constructor(props) {
         super(props)
         this.state = {
             searchModal: false,
+            dataSet: "Papa",
             playerDump: {},
             dataDump: [], //players
             fuelDataJSON: {},
@@ -34,10 +44,8 @@ class App extends Component {
             chartCircleLines: true,
             charCircleColors: colorSchemes["blue"],
             chartMotionDamp: 2,
-            baseCount: 0,
             nivoFuel: {
                 "name": "xsaf",
-                "color": "hsl(27, 70%, 50%)",
                 "children": 
                     [ 
                         /* Populate dynamic with data */
@@ -50,26 +58,33 @@ class App extends Component {
     toggle = () => {
         this.setState({ modal: !this.state.modal });
     }
+
+    toggleDataTypes = (type) => {
+        this.setState({dataSet: type})
+        this.digest(type);
+        this.giveBlueBaseStrength(type);
+    }
       
     componentDidMount = () => {
-        console.log(Papa_Dump.PlayerScores);
-        this.digest(Papa_Dump.PlayerScores);
-        this.giveBlueBaseStrength(Papa_Dump)
+        this.digest(this.state.dataSet);
+        this.giveBlueBaseStrength(this.state.dataSet);
     }
 
     // Formats player data for makeFlightData()
-    digest = (d) => {
+    digest = (type) => {
+        const data = data_sources[type].PlayerScores
         let formatted = [];
-        Object.keys(d).forEach((key) => {
-            formatted.push({name: key, ...d[key]})
+        Object.keys(data).forEach((key) => {
+            formatted.push({name: key, ...data[key]})
         })
         this.setState({dataDump: formatted});
     }
 
     // Formats and sets as default Base Strength in the Nivo Bubblegraph
-    giveBlueBaseStrength = (data) => {
-        let baseDict = data["BaseData"]["blueCoalition"]["baseData"]
-        let formatedBaseList = [];
+    giveBlueBaseStrength = (type) => {
+        const data = data_sources[type];
+        const baseDict = data["BaseData"]["blueCoalition"]["baseData"];
+        const formatedBaseList = [];
         Object.keys(baseDict).forEach((key) => {
             console.log(key);
             let unitList = [];
@@ -90,7 +105,6 @@ class App extends Component {
         console.log(formatedBaseList);
         let replacement = {
             "name": "xsaf",
-                "color": "hsl(27, 70%, 50%)",
                 "children": formatedBaseList
                 }
         this.setState({
@@ -103,24 +117,23 @@ class App extends Component {
     }
 
     giveBaseFuel = () => {
+        const data = data_sources[this.state.dataSet]
+        const baseDict = data["BaseData"]["blueCoalition"]["baseData"]
         let replacement = {
             name: "xsaf", 
-            color:"hsl(27, 70%, 50%)", 
             children: []
         };
-        let count = 0;
-        Object.keys(dynadata).forEach((key) => {
+        Object.keys(baseDict).forEach((key) => {
+            console.log(key);
+            console.log(baseDict[key].bFuel.amount);
             replacement["children"].push( 
                 {
                     name: key,
-                    color: "hsl(84, 70%, 50%)",
-                    amt:  dynadata[key].amt,
+                    amt:  baseDict[key].bFuel.amount,
                 }
             )
-            count += 1;
         });
         this.setState({
-            BaseCount: count,
             chartMotionDamp: 30,
             mainDataChart: replacement, 
             chartCircleColorBy: "name", 
@@ -241,10 +254,21 @@ class App extends Component {
         return (
             <div className="title-group">
                 <div className="title site-title">
-                    <h1>[XSAF] Camelot Dynamic Server</h1>
+                    <h1>[XSAF] Camelot Dynamic Campaign</h1>
                 </div>
                 <div className="title site-title">
-                    <h1>Server Data</h1>
+                    <UncontrolledButtonDropdown>
+                        <DropdownToggle caret size="lg">
+                            <strong>Server: {this.state.dataSet}</strong>
+                        </DropdownToggle>
+                        <DropdownMenu>
+                            <DropdownItem header>Choose Server...</DropdownItem>
+                            <DropdownItem onClick={() => this.toggleDataTypes("Papa")}>Papa</DropdownItem>
+                            <DropdownItem onClick={() => this.toggleDataTypes("Sierra")}>Sierra</DropdownItem>
+                            <DropdownItem divider />
+                            <DropdownItem onClick={() => this.toggleDataTypes("Alpha")}>Alpha</DropdownItem>
+                        </DropdownMenu>
+                    </UncontrolledButtonDropdown>
                 </div>
             </div>
         )
@@ -261,8 +285,8 @@ class App extends Component {
                                 <h3>Airfield Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                <button className="my-btn btn btn-info" onClick={() => this.giveBlueBaseStrength(Papa_Dump)}>Blue Strength</button>
-                                <button className="my-btn btn btn-info" onClick={() => this.giveBaseFuel()}>Blue Fuel</button>
+                                <button className="my-btn btn btn-info" onClick={() => this.giveBlueBaseStrength(this.state.dataSet)}>Blue Strength</button>
+                                <button className="my-btn btn btn-info" onClick={() => this.giveBaseFuel(this.state.dataSet)}>Blue Fuel</button>
                             </div>
                             <Container className="first">
                                 {this.MyResponsiveBubbleHtml(this.state.mainDataChart)}

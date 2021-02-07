@@ -1,0 +1,831 @@
+{
+    "BaseData": {
+        "blueCoalition": {
+            "airData": {
+                "inair": 2,
+                "onground": 0
+            },
+            "baseData": {
+                "Abu al-Duhur": {
+                    "num": 5,
+                    "str": 43,
+                    "type": {
+                        "M48 Chaparral": 1,
+                        "Patriot cp": 1,
+                        "Soldier M4": 1,
+                        "Stinger manpad": 2
+                    }
+                },
+                "Aleppo": {
+                    "num": 9,
+                    "str": 83,
+                    "type": {
+                        "M-2 Bradley": 3,
+                        "Patriot ECS": 1,
+                        "Patriot cp": 2,
+                        "Stinger manpad": 3
+                    }
+                },
+                "Hatay": {
+                    "num": 3,
+                    "str": 28,
+                    "type": {
+                        "M 818": 1,
+                        "Patriot cp": 1,
+                        "Stinger manpad": 1
+                    }
+                },
+                "Jirah": {
+                    "num": 23,
+                    "str": 132,
+                    "type": {
+                        "2B11 mortar": 2,
+                        "Gepard": 1,
+                        "M 818": 4,
+                        "M-2 Bradley": 7,
+                        "M48 Chaparral": 1,
+                        "M978 HEMTT Tanker": 1,
+                        "MLRS": 2,
+                        "Paratrooper RPG-16": 1,
+                        "Patriot cp": 1,
+                        "Patriot ln": 1,
+                        "Roland Radar": 1,
+                        "Stinger manpad": 1
+                    }
+                },
+                "Minakh": {
+                    "num": 1,
+                    "str": 5,
+                    "type": {
+                        "Stinger manpad": 1
+                    }
+                }
+            }
+        }
+    },
+    "PlayerScores": {
+        "-AD- Wildcat": {
+            "Air Kills": 1,
+            "Kills": 6,
+            "KtoDr": 6,
+            "Score": 13.1,
+            "ScoreSpend": 96,
+            "SeatTime": "2h42m",
+            "Unit Kills": 5,
+            "f_time_s": 9724.747,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "108 | The_Tau": {
+            "Air Kills": 2,
+            "Deaths": 2,
+            "Ejections": 1,
+            "Kills": 2,
+            "KtoDr": 1,
+            "Score": 3,
+            "ScoreSpend": 23,
+            "SeatTime": "0h47m",
+            "f_time_s": 2838.657,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "59th | Vapour | Chimp 1-1": {
+            "Air Kills": 7,
+            "Deaths": 2,
+            "Kills": 7,
+            "KtoDr": 3.5,
+            "Score": 15.8,
+            "ScoreSpend": 736.6,
+            "SeatTime": "6h04m",
+            "f_time_s": 21897.738,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Ares": {
+            "Air Kills": 1,
+            "CratesLoaded": 1,
+            "Deaths": 5,
+            "Kills": 1,
+            "KtoDr": 0.2,
+            "Score": -2,
+            "ScoreSpend": -75.7,
+            "SeatTime": "5h39m",
+            "f_time_s": 20351.771,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Capt.Potato": {
+            "Air Kills": 7,
+            "Deaths": 2,
+            "Ejections": 1,
+            "Kills": 55,
+            "KtoDr": 27.5,
+            "Score": 116.8,
+            "ScoreSpend": 941.6,
+            "SeatTime": "12h46m",
+            "Unit Kills": 48,
+            "f_time_s": 45971.332,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "CharlieZ": {
+            "Air Kills": 3,
+            "CratesLoaded": 1,
+            "Create": 1,
+            "Deaths": 5,
+            "Ejections": 1,
+            "Kills": 3,
+            "KtoDr": 0.6,
+            "Score": 13.8,
+            "ScoreSpend": 126.2,
+            "SeatTime": "9h08m",
+            "Troops": 2,
+            "f_time_s": 32915.686,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Chimp 1-2 | Eide": {
+            "Deaths": 2,
+            "Kills": 3,
+            "KtoDr": 1.5,
+            "Score": 3.9,
+            "ScoreSpend": 15.9,
+            "SeatTime": "1h34m",
+            "Unit Kills": 3,
+            "f_time_s": 5668.795,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Cichy": {
+            "Air Kills": 5,
+            "Deaths": 5,
+            "Kills": 10,
+            "KtoDr": 2,
+            "Score": 17.5,
+            "ScoreSpend": 1223.7,
+            "SeatTime": "15h21m",
+            "Unit Kills": 5,
+            "f_time_s": 55282.116,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Deletor": {
+            "Deaths": 4,
+            "Kills": 1,
+            "KtoDr": 0.25,
+            "Score": -2.7,
+            "ScoreSpend": 1.3,
+            "SeatTime": "0h50m",
+            "Unit Kills": 1,
+            "f_time_s": 3015.168,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Dounutes": {
+            "Deaths": 6,
+            "Ejections": 1,
+            "Kills": 6,
+            "KtoDr": 1,
+            "Score": 5.6,
+            "ScoreSpend": 293.2,
+            "SeatTime": "14h56m",
+            "Unit Kills": 6,
+            "f_time_s": 53797.756,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Drif": {
+            "Air Kills": 2,
+            "CratesLoaded": 14,
+            "Create": 5,
+            "Deaths": 1,
+            "Kills": 6,
+            "KtoDr": 6,
+            "Score": 52.5,
+            "ScoreSpend": 2438,
+            "SeatTime": "87h31m",
+            "Troops": 3,
+            "Unit Kills": 4,
+            "f_time_s": 315104.26,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "F10X": {
+            "Air Kills": 1,
+            "Deaths": 1,
+            "Ejections": 1,
+            "Kills": 4,
+            "KtoDr": 4,
+            "Score": 7.9,
+            "ScoreSpend": 360.9,
+            "SeatTime": "11h18m",
+            "Unit Kills": 3,
+            "f_time_s": 40698.11,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Forgety [TaktLwG66]": {
+            "Air Kills": 5,
+            "Deaths": 1,
+            "Kills": 5,
+            "KtoDr": 5,
+            "Score": 11.8,
+            "ScoreSpend": 21.8,
+            "SeatTime": "0h23m",
+            "f_time_s": 1410.866,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Freedom 1-2 | Trashbag": {
+            "CratesLoaded": 18,
+            "Create": 4,
+            "Deaths": 1,
+            "Score": 34.1,
+            "KtoDr": 11,
+            "ScoreSpend": 1933.6,
+            "SeatTime": "12h07m",
+            "Troops": 1,
+            "f_time_s": 43659.007,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Jab \"Das Feuer\" David": {
+            "Air Kills": 2,
+            "Deaths": 1,
+            "Kills": 11,
+            "KtoDr": 11,
+            "Score": 22.9,
+            "ScoreSpend": 78.9,
+            "SeatTime": "1h20m",
+            "Unit Kills": 9,
+            "f_time_s": 4813.794,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Jedi": {
+            "Air Kills": 4,
+            "Deaths": 2,
+            "Kills": 10,
+            "KtoDr": 5,
+            "Score": 20.6,
+            "ScoreSpend": 1005.2,
+            "SeatTime": "12h36m",
+            "Unit Kills": 6,
+            "f_time_s": 45413.8,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Mediocre_Chaos": {
+            "Air Kills": 56,
+            "Deaths": 1,
+            "Kills": 110,
+            "KtoDr": 110,
+            "Score": 257.8,
+            "ScoreSpend": 3707.6,
+            "SeatTime": "59h46m",
+            "Unit Kills": 54,
+            "f_time_s": 215214.607,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "MutleyXXX": {
+            "Air Kills": 1,
+            "Deaths": 2,
+            "Ejections": 1,
+            "Kills": 1,
+            "KtoDr": 0.5,
+            "Score": 0.4,
+            "ScoreSpend": 1078.3,
+            "SeatTime": "27h25m",
+            "f_time_s": 98745.188,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "NavisGravis": {
+            "Air Kills": 1,
+            "Deaths": 1,
+            "Kills": 1,
+            "KtoDr": 1,
+            "Score": 1.4,
+            "ScoreSpend": 19.4,
+            "SeatTime": "1h39m",
+            "f_time_s": 5957.47,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Nomad": {
+            "Air Kills": 11,
+            "CratesLoaded": 29,
+            "Create": 3,
+            "Deaths": 9,
+            "Ejections": 2,
+            "Innocent Kills": 1,
+            "Kills": 91,
+            "KtoDr": 10.111111111111,
+            "Score": 257.5,
+            "ScoreSpend": 977.5,
+            "SeatTime": "6h47m",
+            "Troops": 7,
+            "Unit Kills": 80,
+            "f_time_s": 24454.803,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "PsychoticSmurf": {
+            "Air Kills": 8,
+            "Deaths": 2,
+            "Kills": 8,
+            "KtoDr": 4,
+            "Score": 18.4,
+            "ScoreSpend": 1485.8,
+            "SeatTime": "17h04m",
+            "f_time_s": 61472.965,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "SHOOTER 4-2 [SFAL]": {
+            "Air Kills": 1,
+            "Deaths": 1,
+            "Kills": 1,
+            "KtoDr": 1,
+            "Score": 1.4,
+            "ScoreSpend": 35.5,
+            "SeatTime": "8h04m",
+            "f_time_s": 29073.732,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "SKIES": {
+            "Air Kills": 9,
+            "Kills": 9,
+            "KtoDr": 9,
+            "Score": 23.4,
+            "ScoreSpend": 250.8,
+            "SeatTime": "5h44m",
+            "f_time_s": 20695.671,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Sen": {
+            "Air Kills": 3,
+            "Kills": 7,
+            "KtoDr": 7,
+            "Score": 16.2,
+            "ScoreSpend": 112.2,
+            "SeatTime": "4h21m",
+            "Unit Kills": 4,
+            "f_time_s": 15707.066,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Sephryn": {
+            "Create": 2,
+            "Score": 16.3,
+            "ScoreSpend": 1029,
+            "KtoDr": 1,
+            "SeatTime": "8h26m",
+            "Troops": 3,
+            "f_time_s": 30419.855,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Sh4rk": {
+            "KtoDr": 1,
+            "Create": 6,
+            "Score": 8.4,
+            "ScoreSpend": 68.4,
+            "SeatTime": "1h17m",
+            "f_time_s": 4674.427,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Sharkku": {
+            "Air Kills": 4,
+            "Deaths": 2,
+            "Kills": 4,
+            "KtoDr": 2,
+            "Score": 12.5,
+            "ScoreSpend": 471,
+            "SeatTime": "14h06m",
+            "Troops": 1,
+            "f_time_s": 50815.55,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Shotgun Dexter": {
+            "KtoDr": 1,
+            "CratesLoaded": 7,
+            "Score": 9.8,
+            "ScoreSpend": 4817.4,
+            "SeatTime": "163h52m",
+            "f_time_s": 589940.438,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Snooper": {
+            "Air Kills": 10,
+            "CratesLoaded": 20,
+            "Deaths": 6,
+            "Ejections": 1,
+            "Kills": 10,
+            "KtoDr": 1.6666666666667,
+            "Score": 56,
+            "ScoreSpend": 240.1,
+            "SeatTime": "4h57m",
+            "Troops": 2,
+            "f_time_s": 17879.033,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Snowblind": {
+            "Air Kills": 4,
+            "Deaths": 3,
+            "Kills": 4,
+            "KtoDr": 1.3333333333333,
+            "Score": 6.8,
+            "ScoreSpend": 46.8,
+            "SeatTime": "1h00m",
+            "f_time_s": 3635.933,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Spark 1-1 | Herastean": {
+            "Air Kills": 2,
+            "Deaths": 2,
+            "Kills": 6,
+            "KtoDr": 3,
+            "Score": 11.2,
+            "ScoreSpend": 47.2,
+            "SeatTime": "1h16m",
+            "Unit Kills": 4,
+            "f_time_s": 4601.085,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Spectre": {
+            "KtoDr": 1,
+            "Deaths": 2,
+            "Score": -2.4,
+            "ScoreSpend": -2.4,
+            "SeatTime": "0h32m",
+            "f_time_s": 1928.955,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Speedracer": {
+            "KtoDr": 1,
+            "Deaths": 1,
+            "Score": -1.2,
+            "ScoreSpend": 31.4,
+            "SeatTime": "4h47m",
+            "f_time_s": 17240.529,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Tarnfalk": {
+            "Air Kills": 1,
+            "Deaths": 1,
+            "Kills": 1,
+            "KtoDr": 1,
+            "Score": 1.4,
+            "ScoreSpend": 59.6,
+            "SeatTime": "4h07m",
+            "f_time_s": 14845.732,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Vicius": {
+            "KtoDr": 1,
+            "Deaths": 2,
+            "Score": -2.4,
+            "ScoreSpend": 3191.8,
+            "SeatTime": "6h47m",
+            "f_time_s": 24439.562,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "Ziptie": {
+            "Air Kills": 7,
+            "Deaths": 3,
+            "Ejections": 1,
+            "Kills": 16,
+            "KtoDr": 5.3333333333333,
+            "Score": 33.7,
+            "ScoreSpend": 3976.8,
+            "SeatTime": "46h22m",
+            "Unit Kills": 9,
+            "f_time_s": 166944.484,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "[GM] PravusJSB": {
+            "Air Kills": 1,
+            "Deaths": 7,
+            "Ejections": 6,
+            "Innocent Kills": 6,
+            "Kills": 1,
+            "KtoDr": 0.14285714285714,
+            "Score": -30.1,
+            "ScoreSpend": 17606.3,
+            "SeatTime": "76h06m",
+            "Troops": 1,
+            "f_time_s": 273968.61233333,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "[GR] BULL": {
+            "KtoDr": 1,
+            "CratesLoaded": 13,
+            "Create": 3,
+            "Score": 31.4,
+            "ScoreSpend": 3102.7,
+            "SeatTime": "39h02m",
+            "Troops": 2,
+            "f_time_s": 140578.837,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "[GR] Dev Dev": {
+            "Air Kills": 2,
+            "Deaths": 1,
+            "Kills": 2,
+            "KtoDr": 2,
+            "Score": 4,
+            "ScoreSpend": 402.2,
+            "SeatTime": "7h47m",
+            "f_time_s": 28020.981,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "[GR] Roadkill": {
+            "Air Kills": 3,
+            "Kills": 3,
+            "KtoDr": 3,
+            "Score": 7.8,
+            "ScoreSpend": 37.8,
+            "SeatTime": "0h47m",
+            "f_time_s": 2856.732,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "[TWB]Corley (Ram 1-4)": {
+            "CratesLoaded": 1,
+            "Create": 1,
+            "Score": 2.8,
+            "ScoreSpend": 22.8,
+            "SeatTime": "0h19m",
+            "f_time_s": 1152.487,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "[TWB]LTRMcrew": {
+            "Air Kills": 3,
+            "CratesLoaded": 6,
+            "Create": 1,
+            "Deaths": 4,
+            "Ejections": 1,
+            "Kills": 10,
+            "KtoDr": 2.5,
+            "Score": 32.2,
+            "ScoreSpend": 254.8,
+            "SeatTime": "6h04m",
+            "Troops": 1,
+            "Unit Kills": 7,
+            "f_time_s": 21897.046,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "jjbloon": {
+            "Air Kills": 5,
+            "Deaths": 2,
+            "Kills": 5,
+            "KtoDr": 2.5,
+            "Score": 10.6,
+            "ScoreSpend": 2356.9,
+            "SeatTime": "29h12m",
+            "f_time_s": 105169.558,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "plyrName": {
+            "airkills": 0,
+            "blueonblue": 0,
+            "buildingkills": 0,
+            "cradits": 0,
+            "cratesloaded": 0,
+            "crateunpacked": 0,
+            "deaths": 0,
+            "ejections": 0,
+            "flighttimestring": "0h00m",
+            "ktodratio": 0,
+            "score": 0,
+            "shipkills": 0,
+            "totalkills": 0,
+            "totalsteattime": 31.628,
+            "troopsdropped": 0,
+            "unitkills": 0
+        },
+        "stink": {
+            "Air Kills": 1,
+            "Deaths": 1,
+            "Kills": 12,
+            "KtoDr": 12,
+            "Score": 24.5,
+            "ScoreSpend": 113.9,
+            "SeatTime": "4h08m",
+            "Unit Kills": 11,
+            "f_time_s": 14891.065,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        },
+        "uniqueid": {
+            "Deaths": 1,
+            "Score": -1.2,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h18m",
+            "f_time_s": 1082.031,
+            "flighttime": {
+                "f_time": 0,
+                "f_time_t": 0,
+                "t_time_in": 0,
+                "t_time_out": 0
+            }
+        }
+    }
+}
