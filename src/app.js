@@ -35,7 +35,7 @@ class App extends Component {
         super(props)
         this.state = {
             searchModal: false,
-            dataSet: "Papa",
+            dataSet: "Alpha",
             playerDump: {},
             dataDump: [], //players
             fuelDataJSON: {},
@@ -263,7 +263,7 @@ class App extends Component {
                         </DropdownToggle>
                         <DropdownMenu>
                             <DropdownItem header>Choose Server...</DropdownItem>
-                            <DropdownItem onClick={() => this.toggleDataTypes("Papa")}>Papa</DropdownItem>
+                            <DropdownItem disabled onClick={() => this.toggleDataTypes("Papa")}>Papa</DropdownItem>
                             <DropdownItem onClick={() => this.toggleDataTypes("Sierra")}>Sierra</DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem onClick={() => this.toggleDataTypes("Alpha")}>Alpha</DropdownItem>
