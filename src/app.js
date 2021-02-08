@@ -5,16 +5,14 @@ import {
     Col,
     Container,
     Row,
-    DropdownMenu,
-    DropdownItem,
-    DropdownToggle,
-    UncontrolledButtonDropdown
 } from "reactstrap";
 import { ResponsiveBubble } from '@nivo/circle-packing';
 import PlayerSearchModal from "./searchModal";
-import Papa_Dump from './Papa_Export.json';
-import Sierra_Dump from './Sierra_Export.json';
-import Alpha_Dump from './Alpha_Export.json';
+import Papa_Dump from './data/Papa_Export.json';
+import Sierra_Dump from './data/Sierra_Export.json';
+import Alpha_Dump from './data/Alpha_Export.json';
+
+import TitleBar from './components/titlebar/TitleBar';
 
 // Color schemes for graph
 const colorSchemes = {
@@ -249,35 +247,16 @@ class App extends Component {
         />
     )
 
-    // Title Bar
-    pageTitleBar = () => {
-        return (
-            <div className="title-group">
-                <div className="title site-title">
-                    <h1>[XSAF] Camelot Dynamic Campaign</h1>
-                </div>
-                <div className="title site-title">
-                    <UncontrolledButtonDropdown>
-                        <DropdownToggle caret size="lg">
-                            <strong>Server: {this.state.dataSet}</strong>
-                        </DropdownToggle>
-                        <DropdownMenu>
-                            <DropdownItem header>Choose Server...</DropdownItem>
-                            <DropdownItem disabled onClick={() => this.toggleDataTypes("Papa")}>Papa</DropdownItem>
-                            <DropdownItem onClick={() => this.toggleDataTypes("Sierra")}>Sierra</DropdownItem>
-                            <DropdownItem divider />
-                            <DropdownItem onClick={() => this.toggleDataTypes("Alpha")}>Alpha</DropdownItem>
-                        </DropdownMenu>
-                    </UncontrolledButtonDropdown>
-                </div>
-            </div>
-        )
-    }
-
     render = () => {
         return (
             <main className="content">
-                {this.pageTitleBar()}
+                <TitleBar 
+                    dataSet={this.state.dataSet}
+                    togglePappa={this.toggleDataTypes.bind(this)}
+                    toggleSierra={this.toggleDataTypes.bind(this)}
+                    toggleAlpha={this.toggleDataTypes.bind(this)}
+                />
+
                 <div className="custom-container opac-window">
                     <Row>
                         <Col md="6">
