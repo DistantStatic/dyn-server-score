@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/dyn-server-score/static/css/main.9b64ea86.chunk.css",
-    "main.js": "/dyn-server-score/static/js/main.52a3590b.chunk.js",
-    "main.js.map": "/dyn-server-score/static/js/main.52a3590b.chunk.js.map",
+    "main.js": "/dyn-server-score/static/js/main.fdb7007e.chunk.js",
+    "main.js.map": "/dyn-server-score/static/js/main.fdb7007e.chunk.js.map",
     "runtime-main.js": "/dyn-server-score/static/js/runtime-main.9f3c5623.js",
     "runtime-main.js.map": "/dyn-server-score/static/js/runtime-main.9f3c5623.js.map",
     "static/css/2.1a02f21c.chunk.css": "/dyn-server-score/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.73bd1a5c.chunk.js": "/dyn-server-score/static/js/2.73bd1a5c.chunk.js",
-    "static/js/2.73bd1a5c.chunk.js.map": "/dyn-server-score/static/js/2.73bd1a5c.chunk.js.map",
+    "static/js/2.bf385c1a.chunk.js": "/dyn-server-score/static/js/2.bf385c1a.chunk.js",
+    "static/js/2.bf385c1a.chunk.js.map": "/dyn-server-score/static/js/2.bf385c1a.chunk.js.map",
     "index.html": "/dyn-server-score/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/dyn-server-score/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.9b64ea86.chunk.css.map": "/dyn-server-score/static/css/main.9b64ea86.chunk.css.map",
-    "static/js/2.73bd1a5c.chunk.js.LICENSE.txt": "/dyn-server-score/static/js/2.73bd1a5c.chunk.js.LICENSE.txt"
+    "static/js/2.bf385c1a.chunk.js.LICENSE.txt": "/dyn-server-score/static/js/2.bf385c1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9f3c5623.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.73bd1a5c.chunk.js",
+    "static/js/2.bf385c1a.chunk.js",
     "static/css/main.9b64ea86.chunk.css",
-    "static/js/main.52a3590b.chunk.js"
+    "static/js/main.fdb7007e.chunk.js"
   ]
 }
