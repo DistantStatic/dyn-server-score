@@ -1,18 +1,16 @@
-import { Component } from "react";
+import { Component } from 'react';
 import {
     Col,
     Container,
     Row,
 } from "reactstrap";
-import PlayerSearchModal from "./containers/modals/SearchModal";
-import Papa_Dump from './data/Papa_Export.json';
-import Sierra_Dump from './data/Sierra_Export.json';
-import Alpha_Dump from './data/Alpha_Export.json';
+import PlayerSearchModal from "../modals/SearchModal";
+import Papa_Dump from '../../data/Papa_Export.json';
+import Sierra_Dump from '../../data/Sierra_Export.json';
+import Alpha_Dump from '../../data/Alpha_Export.json';
 
-import TitleBar from './components/titlebar/TitleBar';
-import FlightData from './components/flightdata/FlightData';
-import MyResponsiveBubble from './components/nivo/respbubble/MyResponsiveBubble';
-import MainDisplay from './containers/maindisplay/MainDisplay';
+import FlightData from '../../components/flightdata/FlightData';
+import MyResponsiveBubble from '../../components/nivo/respbubble/MyResponsiveBubble';
 
 // Color schemes for graph
 const colorSchemes = {
@@ -27,41 +25,44 @@ const data_sources = {
     "Sierra": Sierra_Dump
 }
 
-class App extends Component {
-    
-    constructor(props) {
-        super(props)
-        this.state = {
-            searchModal: false,
-            dataSet: "Alpha",
-            playerDump: {},
-            dataDump: [], //players
-            fuelDataJSON: {},
-            mainDataChart: {
-                name: "xsaf", 
-                children: []
-            },
-            chartCircleColorBy: "depth", //depth or name
-            chartCircleLines: true,
-            chartCircleColors: colorSchemes["blue"],
-            chartMotionDamp: 2,
-            nivoFuel: {
-                "name": "xsaf",
-                "children": 
-                    [ 
-                        /* Populate dynamic with data */
-                    ]
-                }
-        }
+export default class MainDisplay extends Component {
+    state = {
+        searchModal: false,
+        playerDump: {},
+        dataSet: "Alpha",
+        dataDump: [], //players
+        fuelDataJSON: {},
+        mainDataChart: {
+            name: "xsaf", 
+            children: []
+        },
+        chartCircleColorBy: "depth", //depth or name
+        chartCircleLines: true,
+        chartCircleColors: colorSchemes["blue"],
+        chartMotionDamp: 2,
+        nivoFuel: {
+            "name": "xsaf",
+            "children": 
+                [ 
+                    /* Populate dynamic with data */
+                ]
+            }
     }
 
     toggle = () => {
         this.setState({ modal: !this.state.modal });
     }
 
+    shouldComponentUpdate(nextState, nextProps){
+        if (nextState !== this.state){
+            return true;
+        }
+    }
+
     componentDidMount() {
-        this.digest(this.state.dataSet);
-        this.giveBlueBaseStrength(this.state.dataSet);
+        this.setState({dataSet: this.props.dataSet})
+        this.digest(this.props.dataSet);
+        this.giveBlueBaseStrength(this.props.dataSet);
     }
 
     // Formats player data for makeFlightData()
@@ -168,29 +169,8 @@ class App extends Component {
         this.setState({dataDump: temp})
     }
     
-    toggleDataTypes = (type) => {
-        this.setState({dataSet: type})
-        this.digest(type);
-        this.giveBlueBaseStrength(type);
-    }
-
-    render = () => {
-        return (
-            <main className="content">
-                <TitleBar 
-                    dataSet={this.state.dataSet}
-                    togglePappa={this.toggleDataTypes.bind(this)}
-                    toggleSierra={this.toggleDataTypes.bind(this)}
-                    toggleAlpha={this.toggleDataTypes.bind(this)}
-                />
-                {/** 
-                 * Works but does not animate graph due to only updating props not state of container.
-                <MainDisplay
-                    key={this.state.dataSet}
-                    dataSet={this.state.dataSet}
-                    />
-                **/
-                }
+    render() {
+            return (
                 <div className="custom-container opac-window">
                     <Row>
                         <Col md="6">
@@ -215,7 +195,7 @@ class App extends Component {
                                 <h3>Player Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                
+                                {/*<button className="my-btn btn btn-primary" onClick={() => this.digest(Papa_Dump.PlayerScores)}>Refresh Data</button>*/}
                                 <button className="my-btn btn btn-primary" onClick={() => this.orderByKDR()}>Kill/Death</button>
                                 <button className="my-btn btn btn-success" onClick={() => this.orderByKills()}>Kills</button>
                                 <button className="my-btn btn btn-danger" onClick={() => this.orderByDeaths()}>Deaths</button>
@@ -236,9 +216,6 @@ class App extends Component {
                             />
                         ) : null}
                 </div>
-            </main>
-                    
-        )
+            )
     }
 }
-export default App
