@@ -1,5 +1,5 @@
 {
-  "name": "learning",
+  "name": "xsaf",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://distantstatic.github.io/dyn-server-score",
@@ -17,6 +17,7 @@
     "popper": "^1.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.3.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "react-vis": "^1.11.7",
