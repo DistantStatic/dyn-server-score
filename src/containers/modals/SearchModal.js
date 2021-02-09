@@ -9,6 +9,9 @@ import {
     Input,
     Label
 } from "reactstrap";
+
+import FlightBox from '../../components/flightdata/flightbox/FlightBox'
+
 import * as JsSearch from 'js-search';
 
 export default class PlayerSearchModal extends Component {
@@ -85,36 +88,10 @@ export default class PlayerSearchModal extends Component {
             let pname = this.state.activePlayer["name"]
             let pdict = this.state.activePlayer
             return (
-                <div className="selected-player-area">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="card-title">{pname}</h3>
-                            <h5 className="card-sub-title mb-2 text-muted">Flight Time: {pdict["SeatTime"]}</h5>
-                            <div className="card-section">
-                                <div className="row row-cols-3">
-                                    <div className="col stat">
-                                        <span><b>Air Kills: </b>{pdict["Air Kills"]}</span>
-                                    </div>
-                                    <div className="col stat">
-                                        <span><b>Deaths: </b>{pdict["Deaths"]}</span>
-                                    </div>
-                                    <div className="col stat">   
-                                        <span><b>Kill/Death Ratio: </b>{pdict["KtoDr"]}</span>
-                                    </div>
-                                    <div className="col stat">
-                                        <span><b>Ground Kills: </b>{pdict["Unit Kills"]}</span>
-                                    </div>
-                                    <div className="col stat">  
-                                        <span><b>Building Kills: </b>{pdict["Building Kills"]}</span>
-                                    </div>
-                                    <div className="col stat">  
-                                        <span><b>Ejections: </b>{pdict["Ejections"]}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <FlightBox
+                    playerName={pname}
+                    playerData={pdict}
+                    />
             )
         }
     }
