@@ -1,0 +1,18 @@
+.ModalSearchBody{
+    max-height: 54vh;
+    overflow-y: hidden;
+}
+
+.ModalResultsList {
+    max-height: 55vh;
+    overflow-y: scroll;
+}
+
+.SearchResultsItem {
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    transition: background-color 1s linear ;
+}

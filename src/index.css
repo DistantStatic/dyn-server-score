@@ -39,16 +39,6 @@ body {
 }
 */
 
-.card {
-    margin-bottom: 2em;
-    box-shadow: 0 2px 2px #ccc;
-}
-
-.card-sub-title {
-    border-bottom: 1px solid #eee;
-    max-width: 80%;
-}
-
 .btn {
     margin-left: 1em;
     margin-right: 1em;
@@ -100,15 +90,7 @@ body {
     transition: background-color 1s linear ;
 }
 
-.modal-results-list {
-    max-height: 55vh;
-    overflow-y: scroll;
-}
 
-.player-data {
-    height: 68vh;
-    overflow-y: scroll;
-}
 
 .custom-container {
     margin-left: 3em;
@@ -127,10 +109,7 @@ body {
     color: #fff;
 }
 
-.modal-search-body{
-    max-height: 54vh;
-    overflow-y: hidden;
-}
+
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {

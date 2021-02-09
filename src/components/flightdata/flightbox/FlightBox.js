@@ -18,18 +18,19 @@ import {
     Percent,
     PersonX,
     Truck,
-    Trophy
+    Trophy,
+    Alarm
 } from 'react-bootstrap-icons'
 
 import classes from './FlightBox.module.css';
 
 const flightBox = (props) => {
     return (
-        <Card>
+        <Card className={classes.Card}>
             <CardHeader className={classes.Header}>
                 <CardTitle><strong>{props.playerName}</strong></CardTitle>
                 <Row>
-                    <Col><CardSubtitle className=" mb-2 text-muted">Flight Time: {props.playerData["SeatTime"]}<span></span></CardSubtitle></Col>
+                    <Col><CardSubtitle className={[classes.CardSubTitle, "mb-2", "text-muted"].join(" ")}><Alarm /> Flight Time: {props.playerData["SeatTime"]}<span></span></CardSubtitle></Col>
                     <Col><CardSubtitle className={classes.HangRightTitle}><Trophy /> Score: {props.playerData["Score"]}</CardSubtitle></Col>
                 </Row>
             </CardHeader>

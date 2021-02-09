@@ -10,7 +10,9 @@ import {
     Label
 } from "reactstrap";
 
-import FlightBox from '../../components/flightdata/flightbox/FlightBox'
+import FlightBox from '../../../components/flightdata/flightbox/FlightBox'
+
+import classes from './SearchModal.module.css';
 
 import * as JsSearch from 'js-search';
 
@@ -61,11 +63,11 @@ export default class PlayerSearchModal extends Component {
             } else {
                 console.log("dict")
                 temp.push(
-                    <div className="modal-results-list">
+                    <div className={classes.ModalResultsList}>
                         {
                             Object.keys(response).map((key, entry) => {
                                 return (
-                                    <p id={"" + key} onClick={(e) => this.playerSelect(e)} className="my-centered-text search-results-item">{response[entry]["name"]}</p>
+                                    <p id={"" + key} onClick={(e) => this.playerSelect(e)} className={classes.SearchResultsItem}>{response[entry]["name"]}</p>
                                 )
                             })
                         }
@@ -99,9 +101,9 @@ export default class PlayerSearchModal extends Component {
     render() {
         const { toggle } = this.props;
         return (
-        <Modal isOpen={true} toggle={toggle} className="modal-player-window">
+        <Modal isOpen={true} toggle={toggle}>
             <ModalHeader toggle={toggle}> Player Search </ModalHeader>
-            <ModalBody className="modal-search-body">
+            <ModalBody className={classes.ModalSearchBody}>
                 <Form>
                     <FormGroup>
                         <Label for="search-bar">Search: </Label>

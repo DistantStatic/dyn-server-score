@@ -10,3 +10,13 @@
 .VertCenter {
     vertical-align: middle;
 }
+
+.Card {
+    margin-bottom: 2em;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+.CardSubTitle {
+    border-bottom: 1px solid #eee;
+    max-width: 80%;
+}

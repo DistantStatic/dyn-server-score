@@ -5,9 +5,11 @@ import {
     UncontrolledButtonDropdown
 } from "reactstrap";
 
+import Aux from '../../hoc/Aux';
+
 const pageTitleBar = (props) => {
     return (
-        <div className="title-group">
+        <Aux>
             <div className="title site-title">
                 <h1>[XSAF] Camelot Dynamic Campaign</h1>
             </div>
@@ -25,7 +27,7 @@ const pageTitleBar = (props) => {
                     </DropdownMenu>
                 </UncontrolledButtonDropdown>
             </div>
-        </div>
+        </Aux>
     )
 }
 

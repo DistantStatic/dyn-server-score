@@ -4,7 +4,7 @@ import {
     Container,
     Row,
 } from "reactstrap";
-import PlayerSearchModal from "./containers/modals/SearchModal";
+import PlayerSearchModal from "./containers/modals/SearchModal/SearchModal";
 import Papa_Dump from './data/Papa_Export.json';
 import Sierra_Dump from './data/Sierra_Export.json';
 import Alpha_Dump from './data/Alpha_Export.json';
@@ -174,7 +174,7 @@ class App extends Component {
         this.giveBlueBaseStrength(type);
     }
 
-    render = () => {
+    render() {
         return (
             <main className="content">
                 <TitleBar 
@@ -222,9 +222,7 @@ class App extends Component {
                                 <button className="my-btn btn btn-info" onClick={() => this.orderByTime()}>Time</button>
                                 <button class="my-btn btn btn-secondary" onClick={() => this.toggle()}>Search</button>
                             </div>
-                            <div className="nexttest player-data scroll-test">
-                                <FlightData dataDump={this.state.dataDump} />
-                            </div>
+                            <FlightData dataDump={this.state.dataDump} />
                         </Col>
                     </Row>
                     
