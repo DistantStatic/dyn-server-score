@@ -16,7 +16,7 @@ import {
     LifePreserver,
     Basket,
     Percent,
-    PersonX,
+    PersonPlus,
     Truck,
     Trophy,
     Alarm
@@ -61,7 +61,7 @@ const flightBox = (props) => {
                             <span className={classes.VertCenter}><Basket /> Crates Loaded: {props.playerData["CratesLoaded"]}</span>
                         </Col>
                         <Col>  
-                            <span className={classes.VertCenter}><PersonX /> Troops: {props.playerData["Troops"]}</span>
+                            <span className={classes.VertCenter}><PersonPlus /> Troops: {props.playerData["Troops"]}</span>
                         </Col>
                     </Row>
             </CardBody>
