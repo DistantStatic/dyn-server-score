@@ -11,6 +11,8 @@ import Alpha_Dump from '../../data/Alpha_Export.json';
 
 import FlightData from '../../components/flightdata/FlightData';
 import MyResponsiveBubble from '../../components/nivo/respbubble/MyResponsiveBubble';
+import TitleBar from '../../components/titlebar/TitleBar';
+import { withRouter } from 'react-router';
 
 // Color schemes for graph
 const colorSchemes = {
@@ -25,11 +27,18 @@ const data_sources = {
     "Sierra": Sierra_Dump
 }
 
-export default class MainDisplay extends Component {
+const path_names = {
+    "/alpha": "Alpha",
+    "/sierra": "Sierra",
+    "/papa": "Papa",
+    "/": "Sierra"
+}
+
+class MainDisplay extends Component {
     state = {
         searchModal: false,
         playerDump: {},
-        dataSet: "Alpha",
+        dataSet: "Sierra",
         dataDump: [], //players
         fuelDataJSON: {},
         mainDataChart: {
@@ -53,16 +62,15 @@ export default class MainDisplay extends Component {
         this.setState({ modal: !this.state.modal });
     }
 
-    shouldComponentUpdate(nextState, nextProps){
-        if (nextState !== this.state){
-            return true;
-        }
-    }
+    component
 
     componentDidMount() {
-        this.setState({dataSet: this.props.dataSet})
-        this.digest(this.props.dataSet);
-        this.giveBlueBaseStrength(this.props.dataSet);
+        console.log("DidMount Called")
+        const set = path_names[this.props.location.pathname]
+        const dump = this.digest(set);
+        const gph = this.giveBlueBaseStrength(set);
+        this.setState({dataSet: set, dataDump: dump, ...gph})
+        
     }
 
     // Formats player data for makeFlightData()
@@ -72,7 +80,7 @@ export default class MainDisplay extends Component {
         Object.keys(data).forEach((key) => {
             formatted.push({name: key, ...data[key]})
         })
-        this.setState({dataDump: formatted});
+        return formatted
     }
 
     // Formats and sets as default Base Strength in the Nivo Bubblegraph
@@ -102,7 +110,7 @@ export default class MainDisplay extends Component {
             "name": "xsaf",
                 "children": formatedBaseList
                 }
-        this.setState({
+        return({
                 chartMotionDamp: 2,
                 mainDataChart: replacement, 
                 chartCircleColorBy: "name", 
@@ -111,8 +119,13 @@ export default class MainDisplay extends Component {
             })
     }
 
-    giveBaseFuel = () => {
-        const data = data_sources[this.state.dataSet]
+    baseStrengthHandler = () => {
+        const gph = this.giveBlueBaseStrength(this.state.dataSet);
+        this.setState({...gph})
+    }
+
+    giveBaseFuel = (type) => {
+        const data = data_sources[type]
         const baseDict = data["BaseData"]["blueCoalition"]["baseData"]
         let replacement = {
             name: "xsaf", 
@@ -128,13 +141,17 @@ export default class MainDisplay extends Component {
                 }
             )
         });
-        this.setState({
+        return({
             chartMotionDamp: 30,
             mainDataChart: replacement, 
             chartCircleColorBy: "name", 
             chartCircleLines: false,
             charCircleColors: colorSchemes["fuel"]
         })
+    }
+    baseFuelHandler = () => {
+        const gph = this.giveBaseFuel(this.state.dataSet);
+        this.setState({...gph})
     }
 
     orderByKills = () => {
@@ -170,7 +187,11 @@ export default class MainDisplay extends Component {
     }
     
     render() {
-            return (
+        return (
+            <main className="content">
+                <TitleBar 
+                    dataSet={this.state.dataSet}
+                />
                 <div className="custom-container opac-window">
                     <Row>
                         <Col md="6">
@@ -178,8 +199,8 @@ export default class MainDisplay extends Component {
                                 <h3>Airfield Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                <button className="my-btn btn btn-info" onClick={() => this.giveBlueBaseStrength(this.state.dataSet)}>Blue Strength</button>
-                                <button className="my-btn btn btn-info" onClick={() => this.giveBaseFuel(this.state.dataSet)}>Blue Fuel</button>
+                                <button className="my-btn btn btn-info" onClick={this.baseStrengthHandler}>Blue Strength</button>
+                                <button className="my-btn btn btn-info" onClick={this.baseFuelHandler}>Blue Fuel</button>
                             </div>
                             <Container className="first">
                                 <MyResponsiveBubble
@@ -195,7 +216,6 @@ export default class MainDisplay extends Component {
                                 <h3>Player Data</h3>
                             </div>
                             <div className="btn-mygroup">
-                                {/*<button className="my-btn btn btn-primary" onClick={() => this.digest(Papa_Dump.PlayerScores)}>Refresh Data</button>*/}
                                 <button className="my-btn btn btn-primary" onClick={() => this.orderByKDR()}>Kill/Death</button>
                                 <button className="my-btn btn btn-success" onClick={() => this.orderByKills()}>Kills</button>
                                 <button className="my-btn btn btn-danger" onClick={() => this.orderByDeaths()}>Deaths</button>
@@ -216,6 +236,9 @@ export default class MainDisplay extends Component {
                             />
                         ) : null}
                 </div>
-            )
+            </main>
+        )
     }
 }
+
+export default withRouter(MainDisplay);

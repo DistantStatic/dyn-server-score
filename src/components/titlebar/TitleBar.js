@@ -4,6 +4,7 @@ import {
     DropdownToggle,
     UncontrolledButtonDropdown
 } from "reactstrap";
+import { Link } from 'react-router-dom';
 
 import Aux from '../../hoc/Aux';
 
@@ -20,10 +21,16 @@ const pageTitleBar = (props) => {
                     </DropdownToggle>
                     <DropdownMenu>
                         <DropdownItem header>Choose Server...</DropdownItem>
-                        <DropdownItem disabled onClick={() => props.togglePappa("Papa")}>Papa</DropdownItem>
-                        <DropdownItem onClick={() => props.toggleSierra("Sierra")}>Sierra</DropdownItem>
+                        <DropdownItem disabled>
+                            <Link to={{pathname: "/papa"}}>Papa</Link>
+                        </DropdownItem>
+                        <DropdownItem >
+                            <Link to={{pathname: "/sierra"}}>Sierra</Link>
+                        </DropdownItem>
                         <DropdownItem divider />
-                        <DropdownItem onClick={() => props.toggleAlpha("Alpha")}>Alpha</DropdownItem>
+                        <DropdownItem >
+                            <Link to={{pathname: "/alpha"}}>Alpha</Link>
+                        </DropdownItem>
                     </DropdownMenu>
                 </UncontrolledButtonDropdown>
             </div>
