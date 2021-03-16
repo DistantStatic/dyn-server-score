@@ -6,15 +6,17 @@ import {
 } from "reactstrap";
 import { Link } from 'react-router-dom';
 
+import classes from './TitleBar.module.css'
+
 import Aux from '../../hoc/Aux';
 
 const pageTitleBar = (props) => {
     return (
         <Aux>
-            <div className="title site-title">
+            <div className={classes.CenteredText}>
                 <h1>[XSAF] Camelot Dynamic Campaign</h1>
             </div>
-            <div className="title site-title">
+            <div className={classes.CenteredText}>
                 <UncontrolledButtonDropdown>
                     <DropdownToggle caret size="lg">
                         <strong>Server: {props.dataSet}</strong>
@@ -33,6 +35,7 @@ const pageTitleBar = (props) => {
                         </DropdownItem>
                     </DropdownMenu>
                 </UncontrolledButtonDropdown>
+                <span>Last Updated 03/16/2021</span>
             </div>
         </Aux>
     )
