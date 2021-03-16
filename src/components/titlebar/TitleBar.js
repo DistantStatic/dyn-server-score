@@ -33,6 +33,7 @@ const pageTitleBar = (props) => {
                         </DropdownItem>
                     </DropdownMenu>
                 </UncontrolledButtonDropdown>
+                <span>Last Updated 03/16/2021</span>
             </div>
         </Aux>
     )
