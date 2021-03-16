@@ -293,7 +293,6 @@
             "Create": 4,
             "Deaths": 1,
             "Score": 34.1,
-            "KtoDr": 11,
             "ScoreSpend": 1933.6,
             "SeatTime": "12h07m",
             "Troops": 1,
@@ -478,7 +477,6 @@
             "Create": 2,
             "Score": 16.3,
             "ScoreSpend": 1029,
-            "KtoDr": 1,
             "SeatTime": "8h26m",
             "Troops": 3,
             "f_time_s": 30419.855,
@@ -490,7 +488,6 @@
             }
         },
         "Sh4rk": {
-            "KtoDr": 1,
             "Create": 6,
             "Score": 8.4,
             "ScoreSpend": 68.4,
@@ -521,7 +518,6 @@
             }
         },
         "Shotgun Dexter": {
-            "KtoDr": 1,
             "CratesLoaded": 7,
             "Score": 9.8,
             "ScoreSpend": 4817.4,
@@ -587,7 +583,6 @@
             }
         },
         "Spectre": {
-            "KtoDr": 1,
             "Deaths": 2,
             "Score": -2.4,
             "ScoreSpend": -2.4,
@@ -601,7 +596,6 @@
             }
         },
         "Speedracer": {
-            "KtoDr": 1,
             "Deaths": 1,
             "Score": -1.2,
             "ScoreSpend": 31.4,
@@ -631,7 +625,6 @@
             }
         },
         "Vicius": {
-            "KtoDr": 1,
             "Deaths": 2,
             "Score": -2.4,
             "ScoreSpend": 3191.8,
@@ -682,7 +675,6 @@
             }
         },
         "[GR] BULL": {
-            "KtoDr": 1,
             "CratesLoaded": 13,
             "Create": 3,
             "Score": 31.4,

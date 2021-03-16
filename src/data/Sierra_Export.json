@@ -2,130 +2,10 @@
     "BaseData": {
         "blueCoalition": {
             "airData": {
-                "inair": 6,
-                "onground": 4
+                "inair": 2,
+                "onground": 0
             },
-            "baseData": {
-                "Abu al-Duhur": {
-                    "bFuel": {
-                        "amount": "Error in fuel func, 1 or less returns no return from cpp"
-                    },
-                    "num": 18,
-                    "str": 163,
-                    "type": {
-                        "Gepard": 1,
-                        "M 818": 3,
-                        "M-1 Abrams": 2,
-                        "M-2 Bradley": 2,
-                        "M1097 Avenger": 1,
-                        "Paratrooper RPG-16": 2,
-                        "Patriot AMG": 3,
-                        "Patriot ECS": 3,
-                        "Patriot EPP": 3,
-                        "Patriot cp": 3,
-                        "Patriot ln": 9,
-                        "Patriot str": 1,
-                        "Roland ADS": 1,
-                        "Roland Radar": 1,
-                        "Soldier M249": 2,
-                        "Soldier M4": 6,
-                        "Stinger manpad": 9,
-                        "Vulcan": 1
-                    }
-                },
-                "Aleppo": {
-                    "bFuel": {
-                        "amount": 538.66910539722
-                    },
-                    "num": 11,
-                    "str": 78,
-                    "type": {
-                        "M 818": 2,
-                        "M-2 Bradley": 3,
-                        "M1097 Avenger": 1,
-                        "Paratrooper RPG-16": 4,
-                        "Patriot AMG": 1,
-                        "Patriot ECS": 1,
-                        "Patriot EPP": 1,
-                        "Patriot cp": 1,
-                        "Patriot ln": 3,
-                        "Patriot str": 1,
-                        "Soldier M249": 4,
-                        "Soldier M4": 4,
-                        "Stinger manpad": 28,
-                        "Vulcan": 1
-                    }
-                },
-                "Bassel Al-Assad": {
-                    "bFuel": {
-                        "amount": 821.13209055328
-                    },
-                    "num": 6,
-                    "str": 54,
-                    "type": {
-                        "Hawk ln": 5,
-                        "Hawk pcp": 1,
-                        "M 818": 2,
-                        "Paratrooper RPG-16": 2,
-                        "Patriot AMG": 1,
-                        "Patriot ECS": 1,
-                        "Patriot EPP": 1,
-                        "Patriot cp": 1,
-                        "Patriot ln": 3,
-                        "Soldier M249": 2,
-                        "Soldier M4": 2,
-                        "Stinger manpad": 4
-                    }
-                },
-                "Hatay": {
-                    "bFuel": {
-                        "amount": 121.42288826752
-                    },
-                    "num": 11,
-                    "str": 68,
-                    "type": {
-                        "M 818": 2,
-                        "M-1 Abrams": 2,
-                        "M-2 Bradley": 1,
-                        "M1097 Avenger": 1,
-                        "M6 Linebacker": 1,
-                        "Paratrooper RPG-16": 2,
-                        "Soldier M249": 2,
-                        "Soldier M4": 2,
-                        "Stinger manpad": 14,
-                        "Vulcan": 1
-                    }
-                },
-                "Jirah": {
-                    "bFuel": {
-                        "amount": 460.58474239969
-                    },
-                    "num": 7,
-                    "str": 57,
-                    "type": {
-                        "Challenger2": 1,
-                        "M 818": 1,
-                        "M-2 Bradley": 1,
-                        "MLRS FDDM": 1,
-                        "Paratrooper RPG-16": 12,
-                        "Patriot AMG": 1,
-                        "Patriot ECS": 1,
-                        "Patriot EPP": 1,
-                        "Patriot cp": 1,
-                        "Patriot ln": 3
-                    }
-                },
-                "Minakh": {
-                    "bFuel": {
-                        "amount": 25
-                    },
-                    "num": 1,
-                    "str": 8,
-                    "type": {
-                        "M-2 Bradley": 1
-                    }
-                }
-            }
+            "baseData": []
         }
     },
     "PlayerScores": {
@@ -145,25 +25,65 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 0
+            "f_time_s": 0,
+            "rhome": 0
         },
-        "-AD- Wildcat": {
-            "Air Kills": 2,
+        "-343ku- Starry_Fox_Nine": {
+            "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 2,
-            "Ejections": 1,
+            "Deaths": 0,
+            "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 2,
-            "KtoDr": 1,
-            "Score": 3,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 86,
+            "SeatTime": "2h32m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 9174.496,
+            "rhome": 0
+        },
+        "-AD- Wildcat": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
             "ScoreSpend": 171.9,
             "SeatTime": "2h40m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9637.2843809524
+            "f_time_s": 9637.2843809524,
+            "rhome": 0
+        },
+        "108 | The_Tau": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 55,
+            "SeatTime": "2h20m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 8459.813,
+            "rhome": 0
         },
         "12 | Midnight | 480th": {
             "Air Kills": 0,
@@ -181,7 +101,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2660.7297619048
+            "f_time_s": 2660.7297619048,
+            "rhome": 0
+        },
+        "18th | Morphiix 1-1": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 11.4,
+            "SeatTime": "1h20m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 4855.78,
+            "rhome": 0
         },
         "2Time": {
             "Air Kills": 0,
@@ -199,7 +139,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2600.6713333333
+            "f_time_s": 2600.6713333333,
+            "rhome": 0
         },
         "479 KEULE [RAFAIR UK]": {
             "Air Kills": 0,
@@ -217,7 +158,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1972.0967619048
+            "f_time_s": 1972.0967619048,
+            "rhome": 0
         },
         "59th | Vapour | Chimp 1-1": {
             "Air Kills": 0,
@@ -235,7 +177,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 22940.487428571
+            "f_time_s": 22940.487428571,
+            "rhome": 0
         },
         "645th SOG Muninn |Shells|": {
             "Air Kills": 0,
@@ -253,7 +196,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5727.4082380952
+            "f_time_s": 5727.4082380952,
+            "rhome": 0
         },
         "=475th= Dawger": {
             "Air Kills": 0,
@@ -271,7 +215,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1980.5662380952
+            "f_time_s": 1980.5662380952,
+            "rhome": 0
         },
         "=JSW= BUCK": {
             "Air Kills": 0,
@@ -284,12 +229,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 663.28571428571,
-            "SeatTime": "10h57m",
+            "ScoreSpend": 1440.8857142857,
+            "SeatTime": "32h23m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 39465.011666667
+            "f_time_s": 116601.42166667,
+            "rhome": 0
         },
         "=JSW=Engines": {
             "Air Kills": 0,
@@ -302,30 +248,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 107.2,
-            "SeatTime": "2h53m",
+            "ScoreSpend": 563.3,
+            "SeatTime": "12h14m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 10422.245952381
+            "f_time_s": 44075.299952381,
+            "rhome": 0
         },
         "ABadPilot": {
-            "Air Kills": 5,
+            "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 5,
-            "KtoDr": 5,
-            "Score": 13,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
             "ScoreSpend": 63,
             "SeatTime": "0h56m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3406.4878571429
+            "f_time_s": 3406.4878571429,
+            "rhome": 0
         },
         "ANVIL 1-1 | Eutro": {
             "Air Kills": 0,
@@ -338,12 +286,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 83.6,
-            "SeatTime": "1h48m",
+            "ScoreSpend": 120.2,
+            "SeatTime": "4h05m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6520.127952381
+            "f_time_s": 14709.327952381,
+            "rhome": 0
         },
         "APEX 1-1 | Jinx": {
             "Air Kills": 0,
@@ -361,7 +310,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2446.8258571429
+            "f_time_s": 2446.8258571429,
+            "rhome": 0
         },
         "Akay": {
             "Air Kills": 0,
@@ -379,7 +329,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3639.3898095238
+            "f_time_s": 3639.3898095238,
+            "rhome": 0
+        },
+        "AlienNitemare": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 26.7,
+            "SeatTime": "2h03m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 7410.076,
+            "rhome": 0
         },
         "Alpha 0-5": {
             "Air Kills": 0,
@@ -397,7 +367,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2692.7292857143
+            "f_time_s": 2692.7292857143,
+            "rhome": 0
         },
         "Amb13": {
             "Air Kills": 0,
@@ -415,7 +386,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2340.1347619048
+            "f_time_s": 2340.1347619048,
+            "rhome": 0
         },
         "Apollo": {
             "Air Kills": 0,
@@ -433,43 +405,65 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 760.496
+            "f_time_s": 760.496,
+            "rhome": 0
         },
         "Ares": {
             "Air Kills": 0,
             "Building Kills": 0,
-            "CratesLoaded": 7,
-            "Create": 3,
+            "CratesLoaded": 8,
+            "Create": 1,
             "Deaths": 2,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 3,
-            "KtoDr": 1.5,
-            "Score": 22.4,
-            "ScoreSpend": 1950.7333333333,
-            "SeatTime": "16:39:33",
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 23.7,
+            "ScoreSpend": 3491.9333333333,
+            "SeatTime": "43h35m",
             "Ship Kills": 0,
-            "Troops": 1,
-            "Unit Kills": 3,
-            "f_time_s": 59973.271333333
+            "Troops": 3,
+            "Unit Kills": 0,
+            "f_time_s": 156955.50233333,
+            "rhome": 21
         },
         "ArtyParty": {
-            "Air Kills": 2,
+            "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 3,
-            "Ejections": 1,
+            "Deaths": 0,
+            "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 4,
-            "KtoDr": 1.3333333333333,
-            "Score": 6,
-            "ScoreSpend": 84.6,
-            "SeatTime": "3h03m",
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 469.9,
+            "SeatTime": "6h34m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 2,
-            "f_time_s": 11034.195095238
+            "Unit Kills": 0,
+            "f_time_s": 23698.526095238,
+            "rhome": 0
+        },
+        "Avris": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 59.8,
+            "SeatTime": "1h51m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 6664.344,
+            "rhome": 0
         },
         "Ayey": {
             "Air Kills": 0,
@@ -487,7 +481,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 524.15419047619
+            "f_time_s": 524.15419047619,
+            "rhome": 0
         },
         "BULL": {
             "Air Kills": 0,
@@ -505,9 +500,10 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2688.3324285714
+            "f_time_s": 2688.3324285714,
+            "rhome": 0
         },
-        "Baloo": {
+        "Baguette 1-1 | ExoLight": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
@@ -515,15 +511,35 @@
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 107.2,
-            "SeatTime": "2h25m",
+            "Kills": 1,
+            "KtoDr": 1,
+            "Score": 2.1,
+            "ScoreSpend": 6.1,
+            "SeatTime": "0h07m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 8733.9345238095
+            "Unit Kills": 1,
+            "f_time_s": 470.29,
+            "rhome": 0
+        },
+        "Baloo": {
+            "Air Kills": 18,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 4,
+            "Ejections": 2,
+            "Innocent Kills": 0,
+            "Kills": 19,
+            "KtoDr": 4.75,
+            "Score": 44.5,
+            "ScoreSpend": 335.7,
+            "SeatTime": "6h18m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 1,
+            "f_time_s": 22734.30252381,
+            "rhome": 8
         },
         "Bar Stool 1-1": {
             "Air Kills": 0,
@@ -541,25 +557,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7625.8694285714
+            "f_time_s": 7625.8694285714,
+            "rhome": 0
         },
         "Blinky": {
-            "Air Kills": 3,
+            "Air Kills": 4,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
             "Deaths": 1,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 3,
-            "KtoDr": 3,
-            "Score": 6.6,
-            "ScoreSpend": 36.6,
-            "SeatTime": "0h47m",
+            "Kills": 8,
+            "KtoDr": 8,
+            "Score": 17.6,
+            "ScoreSpend": 748,
+            "SeatTime": "15h06m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 4,
+            "f_time_s": 54387.792,
+            "rhome": 1
+        },
+        "BoB 1-1 | Avatar": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": -1.2,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h03m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2863.065
+            "f_time_s": 229.992,
+            "rhome": 0
         },
         "Bogusheadbox": {
             "Air Kills": 0,
@@ -577,7 +614,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 12707.392238095
+            "f_time_s": 12707.392238095,
+            "rhome": 0
+        },
+        "BojackH": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 25.4,
+            "SeatTime": "1h50m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 6640.789,
+            "rhome": 0
         },
         "Bomkata": {
             "Air Kills": 0,
@@ -595,7 +652,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2083.1522380952
+            "f_time_s": 2083.1522380952,
+            "rhome": 0
         },
         "BoomerSauce": {
             "Air Kills": 0,
@@ -613,7 +671,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2004.1863809524
+            "f_time_s": 2004.1863809524,
+            "rhome": 0
         },
         "BuBa 1.1 | Rincewind1803": {
             "Air Kills": 0,
@@ -631,7 +690,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5798.1146666667
+            "f_time_s": 5798.1146666667,
+            "rhome": 0
         },
         "BuckShot": {
             "Air Kills": 0,
@@ -649,7 +709,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2420.5641428571
+            "f_time_s": 2420.5641428571,
+            "rhome": 0
         },
         "Bunny 3-14 | Raven": {
             "Air Kills": 0,
@@ -667,7 +728,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 13856.46952381
+            "f_time_s": 13856.46952381,
+            "rhome": 0
         },
         "CNoiman": {
             "Air Kills": 0,
@@ -685,7 +747,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5141.5063333333
+            "f_time_s": 5141.5063333333,
+            "rhome": 0
         },
         "C_Dub": {
             "Air Kills": 0,
@@ -703,7 +766,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 0
+            "f_time_s": 0,
+            "rhome": 0
+        },
+        "C_Dub73": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": -107.2,
+            "SeatTime": "0h18m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 1119.626,
+            "rhome": 0
+        },
+        "CackSlopper": {
+            "Air Kills": 5,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 3,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 5,
+            "KtoDr": 1.6666666666667,
+            "Score": 9.4,
+            "ScoreSpend": 141.6,
+            "SeatTime": "4h31m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 16289.018,
+            "rhome": 4
         },
         "Cactus | Draggin 1-1": {
             "Air Kills": 0,
@@ -721,7 +823,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2148.4162857143
+            "f_time_s": 2148.4162857143,
+            "rhome": 0
         },
         "Camera": {
             "Air Kills": 0,
@@ -739,7 +842,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1999.7036190476
+            "f_time_s": 1999.7036190476,
+            "rhome": 0
+        },
+        "Caper94": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 48,
+            "SeatTime": "1h02m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3733.423,
+            "rhome": 0
         },
         "Capt.Potato": {
             "Air Kills": 0,
@@ -757,7 +880,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 56673.149238095
+            "f_time_s": 56673.149238095,
+            "rhome": 0
         },
         "Chariot": {
             "Air Kills": 0,
@@ -775,7 +899,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9808.962952381
+            "f_time_s": 9808.962952381,
+            "rhome": 0
         },
         "Chariot 1-1": {
             "Air Kills": 0,
@@ -793,25 +918,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2016.52
+            "f_time_s": 2016.52,
+            "rhome": 0
         },
         "CharlieZ": {
-            "Air Kills": 1,
+            "Air Kills": 5,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 2,
-            "Ejections": 0,
+            "Deaths": 10,
+            "Ejections": 1,
             "Innocent Kills": 0,
-            "Kills": 1,
-            "KtoDr": 0.5,
-            "Score": 0.2,
-            "ScoreSpend": 235.8,
-            "SeatTime": "14h44m",
+            "Kills": 7,
+            "KtoDr": 0.7,
+            "Score": 14.4,
+            "ScoreSpend": 780.4,
+            "SeatTime": "52h13m",
             "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 53085.175333333
+            "Troops": 2,
+            "Unit Kills": 2,
+            "f_time_s": 188009.26333333,
+            "rhome": 8
         },
         "Chevy 1-1 | Sen": {
             "Air Kills": 0,
@@ -829,7 +956,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9076.8857142857
+            "f_time_s": 9076.8857142857,
+            "rhome": 0
         },
         "Chimp 1-2 | Eide": {
             "Air Kills": 0,
@@ -847,7 +975,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5938.7376190476
+            "f_time_s": 5938.7376190476,
+            "rhome": 0
         },
         "Chimp 1-2 | Pexx": {
             "Air Kills": 0,
@@ -865,9 +994,86 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4323.264
+            "f_time_s": 4323.264,
+            "rhome": 0
         },
         "Chinn": {
+            "Air Kills": 17,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 11,
+            "Ejections": 3,
+            "Innocent Kills": 0,
+            "Kills": 17,
+            "KtoDr": 1.5454545454545,
+            "Score": 31.6,
+            "ScoreSpend": 444.2,
+            "SeatTime": "9h43m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 34997.065,
+            "rhome": 3
+        },
+        "Cichy": {
+            "Air Kills": 16,
+            "Building Kills": 0,
+            "CratesLoaded": 6,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 1,
+            "Innocent Kills": 0,
+            "Kills": 58,
+            "KtoDr": 58,
+            "Score": 137.2,
+            "ScoreSpend": 2264.8285714286,
+            "SeatTime": "59h11m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 42,
+            "f_time_s": 213109.59271429,
+            "rhome": 22
+        },
+        "Claymore 1-1 | IronKirton": {
+            "Air Kills": 11,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 4,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 11,
+            "KtoDr": 2.75,
+            "Score": 23.8,
+            "ScoreSpend": 163.1,
+            "SeatTime": "4h40m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 16856.328,
+            "rhome": 5
+        },
+        "Colt 4 Juanruiz": {
+            "Air Kills": 2,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 2,
+            "KtoDr": 2,
+            "Score": 5.2,
+            "ScoreSpend": 25.2,
+            "SeatTime": "0h48m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 2880.956,
+            "rhome": 1
+        },
+        "Cossack 1-1 | Sjt.Yuri": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
@@ -878,30 +1084,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 11.4,
-            "SeatTime": "0h31m",
+            "ScoreSpend": 0,
+            "SeatTime": "0h07m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1888.964
-        },
-        "Cichy": {
-            "Air Kills": 7,
-            "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
-            "Deaths": 4,
-            "Ejections": 1,
-            "Innocent Kills": 0,
-            "Kills": 7,
-            "KtoDr": 1.75,
-            "Score": 13.6,
-            "ScoreSpend": 606.82857142857,
-            "SeatTime": "27h37m",
-            "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 99432.151714286
+            "f_time_s": 429.099,
+            "rhome": 0
         },
         "Crash": {
             "Air Kills": 0,
@@ -919,7 +1108,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4712.1737142857
+            "f_time_s": 4712.1737142857,
+            "rhome": 0
+        },
+        "Crashtestfetus": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h00m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 0,
+            "rhome": 0
         },
         "DA318STATE": {
             "Air Kills": 0,
@@ -932,12 +1141,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 4.9,
-            "SeatTime": "0h36m",
+            "ScoreSpend": 55.3,
+            "SeatTime": "1h22m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2204.4984761905
+            "f_time_s": 4942.9204761905,
+            "rhome": 0
         },
         "DNGR 1-1|Ferventus": {
             "Air Kills": 0,
@@ -955,7 +1165,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4147.6008095238
+            "f_time_s": 4147.6008095238,
+            "rhome": 0
         },
         "Deletor": {
             "Air Kills": 0,
@@ -973,25 +1184,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3158.7474285714
+            "f_time_s": 3158.7474285714,
+            "rhome": 0
         },
         "Demo": {
-            "Air Kills": 0,
+            "Air Kills": 1,
             "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
-            "Deaths": 0,
+            "CratesLoaded": 11,
+            "Create": 4,
+            "Deaths": 2,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 19.6,
-            "SeatTime": "1h10m",
+            "Kills": 4,
+            "KtoDr": 2,
+            "Score": 50,
+            "ScoreSpend": 692.4,
+            "SeatTime": "14h27m",
             "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 4201.6291428571
+            "Troops": 5,
+            "Unit Kills": 3,
+            "f_time_s": 52036.642142857,
+            "rhome": 19
         },
         "Depression Flight 1-1": {
             "Air Kills": 0,
@@ -1009,7 +1222,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2162.2731428571
+            "f_time_s": 2162.2731428571,
+            "rhome": 0
         },
         "Dima": {
             "Air Kills": 0,
@@ -1022,12 +1236,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 33.6,
-            "SeatTime": "1h41m",
+            "ScoreSpend": 56.8,
+            "SeatTime": "2h09m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6063.156
+            "f_time_s": 7764.781,
+            "rhome": 0
         },
         "Dope 1-1 | sourisher": {
             "Air Kills": 0,
@@ -1040,12 +1255,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 126,
-            "SeatTime": "1h04m",
+            "ScoreSpend": 136.2,
+            "SeatTime": "1h47m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3875.1638095238
+            "f_time_s": 6447.6838095238,
+            "rhome": 0
         },
         "Dounutes": {
             "Air Kills": 0,
@@ -1063,9 +1279,10 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 63380.510809524
+            "f_time_s": 63380.510809524,
+            "rhome": 0
         },
-        "Drif": {
+        "Dragoon": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
@@ -1076,12 +1293,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 2505.0952380952,
-            "SeatTime": "94h49m",
+            "ScoreSpend": 0,
+            "SeatTime": "0h00m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 341364.13561905
+            "f_time_s": 0,
+            "rhome": 0
+        },
+        "Drif": {
+            "Air Kills": 5,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 3,
+            "Ejections": 0,
+            "Innocent Kills": 2,
+            "Kills": 5,
+            "KtoDr": 1.6666666666667,
+            "Score": -0.6,
+            "ScoreSpend": 3311.8952380952,
+            "SeatTime": "105h33m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 380015.59161905,
+            "rhome": 2
         },
         "Droggelkelch": {
             "Air Kills": 0,
@@ -1099,7 +1336,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6138.4970952381
+            "f_time_s": 6138.4970952381,
+            "rhome": 0
         },
         "Droop [TaktLwG66]": {
             "Air Kills": 0,
@@ -1117,7 +1355,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2938.307952381
+            "f_time_s": 2938.307952381,
+            "rhome": 0
         },
         "E-TF[007] Kingston": {
             "Air Kills": 0,
@@ -1135,7 +1374,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2134.1346190476
+            "f_time_s": 2134.1346190476,
+            "rhome": 0
+        },
+        "EARL 4-2 | H4nS0L0": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 18.3,
+            "SeatTime": "5h11m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 18661.846,
+            "rhome": 0
         },
         "EGL4-4|Voodoo|": {
             "Air Kills": 0,
@@ -1153,7 +1412,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 259.85142857142
+            "f_time_s": 259.85142857142,
+            "rhome": 0
         },
         "EeriestWalnut": {
             "Air Kills": 0,
@@ -1171,7 +1431,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 63601.318785714
+            "f_time_s": 63601.318785714,
+            "rhome": 0
         },
         "Eisen": {
             "Air Kills": 0,
@@ -1189,7 +1450,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 13853.714285714
+            "f_time_s": 13853.714285714,
+            "rhome": 0
+        },
+        "Enfield 5-1 | JP": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 12.6,
+            "SeatTime": "0h50m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3029.227,
+            "rhome": 0
         },
         "Exile 1-4 Zhaloa": {
             "Air Kills": 0,
@@ -1207,7 +1488,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9664.2768095238
+            "f_time_s": 9664.2768095238,
+            "rhome": 0
         },
         "Extreme": {
             "Air Kills": 0,
@@ -1220,12 +1502,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 254.52380952381,
-            "SeatTime": "3h22m",
+            "ScoreSpend": 346.22380952381,
+            "SeatTime": "5h40m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 12132.249380952
+            "f_time_s": 20450.986380952,
+            "rhome": 0
         },
         "F10X": {
             "Air Kills": 0,
@@ -1243,7 +1526,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 63095.055047619
+            "f_time_s": 63095.055047619,
+            "rhome": 0
         },
         "FRDM 1-2 | Trashbag": {
             "Air Kills": 0,
@@ -1261,7 +1545,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2744.7121428571
+            "f_time_s": 2744.7121428571,
+            "rhome": 0
         },
         "FS-141 Dingus": {
             "Air Kills": 0,
@@ -1274,12 +1559,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 50.4,
-            "SeatTime": "1h55m",
+            "ScoreSpend": 49.2,
+            "SeatTime": "2h11m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6935.4177619048
+            "f_time_s": 7888.1117619048,
+            "rhome": 0
+        },
+        "FTTX": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 66.8,
+            "SeatTime": "5h30m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 19836.222,
+            "rhome": 0
         },
         "Farmer 1-1 | Thiccbeard": {
             "Air Kills": 0,
@@ -1297,7 +1602,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5646.3665238095
+            "f_time_s": 5646.3665238095,
+            "rhome": 0
         },
         "Flaminx": {
             "Air Kills": 0,
@@ -1310,12 +1616,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 334.38095238095,
-            "SeatTime": "4h29m",
+            "ScoreSpend": 437.08095238095,
+            "SeatTime": "5h50m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 16167.988047619
+            "f_time_s": 21050.545047619,
+            "rhome": 0
         },
         "Fleck": {
             "Air Kills": 0,
@@ -1333,7 +1640,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9500.6764285714
+            "f_time_s": 9500.6764285714,
+            "rhome": 0
         },
         "Fonck": {
             "Air Kills": 0,
@@ -1351,25 +1659,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7031.4587619048
+            "f_time_s": 7031.4587619048,
+            "rhome": 0
         },
-        "Forgety [TaktLwG66]": {
-            "Air Kills": 6,
+        "Forgety": {
+            "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 2,
+            "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 15,
-            "KtoDr": 7.5,
-            "Score": 32.1,
-            "ScoreSpend": 88.9,
-            "SeatTime": "3h03m",
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 77.1,
+            "SeatTime": "1h06m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 9,
-            "f_time_s": 11013.829095238
+            "Unit Kills": 0,
+            "f_time_s": 3973.182,
+            "rhome": 0
+        },
+        "Forgety [TaktLwG66]": {
+            "Air Kills": 11,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 6,
+            "Ejections": 1,
+            "Innocent Kills": 0,
+            "Kills": 27,
+            "KtoDr": 4.5,
+            "Score": 55.2,
+            "ScoreSpend": 548.7,
+            "SeatTime": "23h08m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 16,
+            "f_time_s": 83304.853095238,
+            "rhome": 10
         },
         "Freedom 1-2 | Trashbag": {
             "Air Kills": 0,
@@ -1387,7 +1716,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 48904.550095238
+            "f_time_s": 48904.550095238,
+            "rhome": 0
+        },
+        "Galgo 2-3 || Clepper": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 154,
+            "KtoDr": 154,
+            "Score": 322.2,
+            "ScoreSpend": 938.2,
+            "SeatTime": "0h52m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 154,
+            "f_time_s": 3127.816,
+            "rhome": 1
         },
         "Gebbster138ET": {
             "Air Kills": 0,
@@ -1405,7 +1754,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5586.7507142857
+            "f_time_s": 5586.7507142857,
+            "rhome": 0
         },
         "GenChat 1-3 LordFelix": {
             "Air Kills": 0,
@@ -1418,12 +1768,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 318,
-            "SeatTime": "3h17m",
+            "ScoreSpend": 780.8,
+            "SeatTime": "8h28m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 11848.590285714
+            "f_time_s": 30520.843285714,
+            "rhome": 0
         },
         "Ghost-4 | TAW_Keris": {
             "Air Kills": 0,
@@ -1441,7 +1792,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2662.1739047619
+            "f_time_s": 2662.1739047619,
+            "rhome": 0
+        },
+        "Ghost-7 | TAW_Keris": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 193.6,
+            "SeatTime": "3h41m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 13290.958,
+            "rhome": 0
         },
         "Ghostlydoggo": {
             "Air Kills": 0,
@@ -1459,7 +1830,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4648.4564761905
+            "f_time_s": 4648.4564761905,
+            "rhome": 0
+        },
+        "Glock": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h08m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 527.878,
+            "rhome": 0
         },
         "Golok": {
             "Air Kills": 0,
@@ -1477,26 +1868,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 32871.22352381
+            "f_time_s": 32871.22352381,
+            "rhome": 0
         },
         "Grendul": {
-            "Air Kills": 5,
+            "Air Kills": 2,
             "Building Kills": 0,
-            "CratesLoaded": 35,
-            "Create": 11,
-            "Deaths": 7,
+            "CratesLoaded": 58,
+            "Create": 19,
+            "Deaths": 16,
             "Ejections": 0,
-            "Innocent Kills": 1,
-            "Kills": 5,
-            "KtoDr": 0.71428571428571,
-            "Modified": "1:19:53",
-            "Score": 91,
-            "ScoreSpend": 884.18095238095,
-            "SeatTime": "22:37:05",
+            "Innocent Kills": 0,
+            "Kills": 100,
+            "KtoDr": 6.25,
+            "Score": 344.6,
+            "ScoreSpend": 4456.7809523809,
+            "SeatTime": "63h20m",
             "Ship Kills": 0,
-            "Troops": 6,
-            "Unit Kills": 0,
-            "f_time_s": 81425.072333333
+            "Troops": 10,
+            "Unit Kills": 98,
+            "f_time_s": 228015.74633333,
+            "rhome": 58
         },
         "Gritz 1-1 | Demondawg": {
             "Air Kills": 0,
@@ -1514,9 +1906,10 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2143.3327142857
+            "f_time_s": 2143.3327142857,
+            "rhome": 0
         },
-        "HAMMER 1-1 I MOBY": {
+        "Gunterlund": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
@@ -1527,12 +1920,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 100.8,
-            "SeatTime": "1h24m",
+            "ScoreSpend": 0,
+            "SeatTime": "0h00m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5052.2324285714
+            "f_time_s": 59.162,
+            "rhome": 0
+        },
+        "HAMMER 1-1 I MOBY": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": -1.2,
+            "ScoreSpend": 99.6,
+            "SeatTime": "2h10m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 7851.2644285714,
+            "rhome": 0
         },
         "HELLSPIRES (SPIRE 1-2)": {
             "Air Kills": 0,
@@ -1550,7 +1963,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7207.0659047619
+            "f_time_s": 7207.0659047619,
+            "rhome": 0
         },
         "HELLSPIRES Spire 1-3": {
             "Air Kills": 0,
@@ -1568,7 +1982,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1951.170047619
+            "f_time_s": 1951.170047619,
+            "rhome": 0
         },
         "Hoss": {
             "Air Kills": 0,
@@ -1586,7 +2001,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 52029.922188095
+            "f_time_s": 52029.922188095,
+            "rhome": 0
         },
         "Icarus 1-1 | Sjt.Yuri": {
             "Air Kills": 0,
@@ -1604,43 +2020,65 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2250.0882380952
+            "f_time_s": 2250.0882380952,
+            "rhome": 0
         },
-        "Ironhorse636": {
-            "Air Kills": 1,
+        "Imperial": {
+            "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 4,
+            "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 1,
-            "KtoDr": 0.25,
-            "Score": -2.2,
-            "ScoreSpend": 329.71428571429,
-            "SeatTime": "8h38m",
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 160.4,
+            "SeatTime": "0h35m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 31129.290761905
+            "f_time_s": 2132.633,
+            "rhome": 0
+        },
+        "Ironhorse636": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 339.91428571429,
+            "SeatTime": "10h02m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 36139.809761905,
+            "rhome": 0
         },
         "Jab \"Das Feuer\" David": {
-            "Air Kills": 15,
+            "Air Kills": 7,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
             "Deaths": 1,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 20,
-            "KtoDr": 20,
-            "Score": 48.3,
-            "ScoreSpend": 652.91904761905,
-            "SeatTime": "12h54m",
+            "Kills": 7,
+            "KtoDr": 7,
+            "Score": 17,
+            "ScoreSpend": 1415.5190476191,
+            "SeatTime": "28h42m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 5,
-            "f_time_s": 46457.088571429
+            "Unit Kills": 0,
+            "f_time_s": 103377.30757143,
+            "rhome": 2
         },
         "Jack6366": {
             "Air Kills": 0,
@@ -1653,12 +2091,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 93.6,
-            "SeatTime": "1h24m",
+            "ScoreSpend": 167.5,
+            "SeatTime": "9h25m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5057.3013333333
+            "f_time_s": 33922.712333333,
+            "rhome": 0
         },
         "Jedi": {
             "Air Kills": 0,
@@ -1671,12 +2110,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 314,
-            "SeatTime": "9h18m",
+            "ScoreSpend": 381.4,
+            "SeatTime": "12h14m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 33531.744190476
+            "f_time_s": 44063.792190476,
+            "rhome": 0
+        },
+        "JoePineapples": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 112.2,
+            "SeatTime": "0h42m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 2538.65,
+            "rhome": 0
         },
         "Jozzie": {
             "Air Kills": 0,
@@ -1694,7 +2153,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 15313.061238095
+            "f_time_s": 15313.061238095,
+            "rhome": 0
         },
         "JustKilian": {
             "Air Kills": 0,
@@ -1708,11 +2168,31 @@
             "KtoDr": 0,
             "Score": 0,
             "ScoreSpend": -173.4,
-            "SeatTime": "0h49m",
+            "SeatTime": "1h08m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2978.7224761905
+            "f_time_s": 4124.6334761905,
+            "rhome": 0
+        },
+        "Kalabrastya": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": -2.4,
+            "SeatTime": "0h56m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3397.151,
+            "rhome": 0
         },
         "Kama 1": {
             "Air Kills": 0,
@@ -1730,7 +2210,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4276.2274761905
+            "f_time_s": 4276.2274761905,
+            "rhome": 0
+        },
+        "Katalam": {
+            "Air Kills": 19,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 5,
+            "Ejections": 2,
+            "Innocent Kills": 0,
+            "Kills": 41,
+            "KtoDr": 8.2,
+            "Score": 90,
+            "ScoreSpend": 368,
+            "SeatTime": "7h14m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 22,
+            "f_time_s": 26082.349,
+            "rhome": 15
         },
         "KeeseAf": {
             "Air Kills": 0,
@@ -1748,7 +2248,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3305.7247142857
+            "f_time_s": 3305.7247142857,
+            "rhome": 0
         },
         "Kelso": {
             "Air Kills": 0,
@@ -1760,13 +2261,14 @@
             "Innocent Kills": 0,
             "Kills": 0,
             "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 297.47619047619,
-            "SeatTime": "3h44m",
+            "Score": 4.5,
+            "ScoreSpend": 622.37619047619,
+            "SeatTime": "7h16m",
             "Ship Kills": 0,
-            "Troops": 0,
+            "Troops": 1,
             "Unit Kills": 0,
-            "f_time_s": 13496.687285714
+            "f_time_s": 26208.833285714,
+            "rhome": 4
         },
         "Kraut 1-3 / Steavfox": {
             "Air Kills": 0,
@@ -1784,7 +2286,65 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3352.9230952381
+            "f_time_s": 3352.9230952381,
+            "rhome": 0
+        },
+        "LADMTSOQ": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 33,
+            "SeatTime": "1h10m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 4203.674,
+            "rhome": 0
+        },
+        "LANCE 1-2 | Morris": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 11.4,
+            "SeatTime": "0h28m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 1689.163,
+            "rhome": 0
+        },
+        "LANCE 1-3 | Timson": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h17m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 1072.682,
+            "rhome": 0
         },
         "LIZZARD 1-1 | Bananabrai": {
             "Air Kills": 0,
@@ -1802,7 +2362,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7887.2797142857
+            "f_time_s": 7887.2797142857,
+            "rhome": 0
+        },
+        "Lance 1-1 | Puddles": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 180.8,
+            "SeatTime": "3h30m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 12609.415,
+            "rhome": 0
+        },
+        "Lance 1-4 | Bez": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 17.5,
+            "SeatTime": "0h54m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3259.683,
+            "rhome": 0
         },
         "Lancer 1-1 | Sjt.Yuri": {
             "Air Kills": 0,
@@ -1820,7 +2419,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3186.6078095238
+            "f_time_s": 3186.6078095238,
+            "rhome": 0
         },
         "Longford": {
             "Air Kills": 0,
@@ -1838,7 +2438,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2207.0138095238
+            "f_time_s": 2207.0138095238,
+            "rhome": 0
+        },
+        "Longford 1-2 | Nitsas": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": -1.2,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h48m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 2916.522,
+            "rhome": 1
         },
         "Lucifer 1-1 | Sjt.Yuri": {
             "Air Kills": 0,
@@ -1852,11 +2472,12 @@
             "KtoDr": 0,
             "Score": 0,
             "ScoreSpend": 59.4,
-            "SeatTime": "0h59m",
+            "SeatTime": "4h36m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3597.6400952381
+            "f_time_s": 16595.094095238,
+            "rhome": 0
         },
         "MadMax": {
             "Air Kills": 0,
@@ -1874,7 +2495,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 29264.138619048
+            "f_time_s": 29264.138619048,
+            "rhome": 0
         },
         "Mako 1 | Dezz": {
             "Air Kills": 0,
@@ -1892,7 +2514,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4445.090047619
+            "f_time_s": 4445.090047619,
+            "rhome": 0
         },
         "Mango": {
             "Air Kills": 0,
@@ -1910,7 +2533,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 11950.68652381
+            "f_time_s": 11950.68652381,
+            "rhome": 0
+        },
+        "Mathias M.": {
+            "Air Kills": 14,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 4,
+            "Ejections": 1,
+            "Innocent Kills": 0,
+            "Kills": 18,
+            "KtoDr": 4.5,
+            "Score": 40.2,
+            "ScoreSpend": 196.2,
+            "SeatTime": "3h37m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 4,
+            "f_time_s": 13074.365,
+            "rhome": 5
         },
         "Matra": {
             "Air Kills": 0,
@@ -1928,26 +2571,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2493.1788095238
+            "f_time_s": 2493.1788095238,
+            "rhome": 0
         },
         "Mediocre_Chaos": {
-            "Air Kills": 49,
+            "Air Kills": 68,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 4,
+            "Deaths": 3,
             "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 65,
-            "KtoDr": 16.25,
-            "Modified": "1:15:27",
-            "Score": 156.2,
-            "ScoreSpend": 1710.6095238095,
-            "SeatTime": "22:57:24",
+            "Innocent Kills": 1,
+            "Kills": 140,
+            "KtoDr": 46.666666666667,
+            "Score": 319.4,
+            "ScoreSpend": 9832.6095238095,
+            "SeatTime": "191h42m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 16,
-            "f_time_s": 341844.8092381
+            "Unit Kills": 72,
+            "f_time_s": 690143.0792381,
+            "rhome": 29
+        },
+        "Meulmann": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h02m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 138.992,
+            "rhome": 0
         },
         "Mistralol": {
             "Air Kills": 0,
@@ -1965,7 +2628,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4286.5863333333
+            "f_time_s": 4286.5863333333,
+            "rhome": 0
         },
         "Mongoose | Taint 1-3": {
             "Air Kills": 0,
@@ -1983,79 +2647,103 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3023.439047619
+            "f_time_s": 3023.439047619,
+            "rhome": 0
         },
         "Monkey 1-1": {
-            "Air Kills": 0,
+            "Air Kills": 1,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
+            "Deaths": 4,
             "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 299.2,
-            "SeatTime": "0h33m",
+            "Innocent Kills": 1,
+            "Kills": 1,
+            "KtoDr": 0.25,
+            "Score": -7.2,
+            "ScoreSpend": 786.6,
+            "SeatTime": "13h34m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2025.4441428571
+            "f_time_s": 48897.478142857,
+            "rhome": 0
         },
         "MrSatchie": {
-            "Air Kills": 0,
+            "Air Kills": 1,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
+            "Deaths": 3,
+            "Ejections": 1,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": -107.4,
-            "SeatTime": "3h01m",
+            "Kills": 1,
+            "KtoDr": 0.33333333333333,
+            "Score": -0.8,
+            "ScoreSpend": -98.2,
+            "SeatTime": "5h59m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 10912.438952381
+            "f_time_s": 21554.069952381,
+            "rhome": 2
         },
         "Mud 1-1 | Rocky": {
+            "Air Kills": 7,
+            "Building Kills": 0,
+            "CratesLoaded": 7,
+            "Create": 4,
+            "Deaths": 2,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 50,
+            "KtoDr": 25,
+            "Score": 121.5,
+            "ScoreSpend": 1009.7,
+            "SeatTime": "32h52m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 43,
+            "f_time_s": 118348.79047619,
+            "rhome": 16
+        },
+        "Mustang 1-1 l crashtest": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
+            "Deaths": 1,
             "Ejections": 0,
             "Innocent Kills": 0,
             "Kills": 0,
             "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 102,
-            "SeatTime": "2h34m",
+            "Score": -1.2,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h10m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9247.2814761905
+            "f_time_s": 605.907,
+            "rhome": 0
         },
         "MutelyXXX": {
-            "Air Kills": 0,
+            "Air Kills": 4,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 41,
-            "SeatTime": "0h41m",
+            "Kills": 4,
+            "KtoDr": 4,
+            "Score": 10.4,
+            "ScoreSpend": 212.2,
+            "SeatTime": "7h03m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2474.7234285714
+            "f_time_s": 25437.275428571,
+            "rhome": 1
         },
         "Mutex": {
             "Air Kills": 0,
@@ -2073,7 +2761,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3284.5491904762
+            "f_time_s": 3284.5491904762,
+            "rhome": 0
         },
         "MutleyXXX": {
             "Air Kills": 0,
@@ -2091,7 +2780,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 104776.00204762
+            "f_time_s": 104776.00204762,
+            "rhome": 0
         },
         "NaCH": {
             "Air Kills": 0,
@@ -2109,7 +2799,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5970.855
+            "f_time_s": 5970.855,
+            "rhome": 0
         },
         "Natty Ice 1-1": {
             "Air Kills": 0,
@@ -2127,7 +2818,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7999.2471428571
+            "f_time_s": 7999.2471428571,
+            "rhome": 0
         },
         "NavisGravis": {
             "Air Kills": 0,
@@ -2140,12 +2832,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 27.4,
-            "SeatTime": "1h31m",
+            "ScoreSpend": 61.6,
+            "SeatTime": "2h21m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5465.5443333333
+            "f_time_s": 8487.7703333333,
+            "rhome": 0
         },
         "Niels": {
             "Air Kills": 0,
@@ -2163,9 +2856,10 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5116.9014285714
+            "f_time_s": 5116.9014285714,
+            "rhome": 0
         },
-        "Nomad": {
+        "NightHawk 1-1 [TWB]LTRMcr": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
@@ -2176,12 +2870,51 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 647.61904761905,
-            "SeatTime": "8h15m",
+            "ScoreSpend": 29.7,
+            "SeatTime": "0h11m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 29757.501190476
+            "f_time_s": 665.639,
+            "rhome": 0
+        },
+        "Nomad": {
+            "Air Kills": 1,
+            "Building Kills": 0,
+            "CratesLoaded": 74,
+            "Create": 21,
+            "Deaths": 9,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 27,
+            "KtoDr": 3,
+            "Score": 206.4,
+            "ScoreSpend": 5640.119047619,
+            "SeatTime": "57h44m",
+            "Ship Kills": 0,
+            "Troops": 6,
+            "Unit Kills": 26,
+            "f_time_s": 207845.86419048,
+            "rhome": 39
+        },
+        "Noodleholz": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 127.8,
+            "SeatTime": "1h27m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 5264.286,
+            "rhome": 0
         },
         "Nytehawk": {
             "Air Kills": 0,
@@ -2199,7 +2932,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5385.424
+            "f_time_s": 5385.424,
+            "rhome": 0
         },
         "Odin 1-1 |Shells|": {
             "Air Kills": 0,
@@ -2217,7 +2951,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7324.8827142857
+            "f_time_s": 7324.8827142857,
+            "rhome": 0
         },
         "PatatOorlog": {
             "Air Kills": 0,
@@ -2235,7 +2970,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 32346.684333333
+            "f_time_s": 32346.684333333,
+            "rhome": 0
+        },
+        "Pepo": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 79.3,
+            "SeatTime": "1h13m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 4416.852,
+            "rhome": 0
         },
         "Phaser 1-1": {
             "Air Kills": 0,
@@ -2253,7 +3008,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2378.025047619
+            "f_time_s": 2378.025047619,
+            "rhome": 0
         },
         "Popcorn 8-1": {
             "Air Kills": 0,
@@ -2271,7 +3027,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2550.3903333333
+            "f_time_s": 2550.3903333333,
+            "rhome": 0
         },
         "Portalearth": {
             "Air Kills": 0,
@@ -2289,9 +3046,29 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2581.9797142857
+            "f_time_s": 2581.9797142857,
+            "rhome": 0
         },
         "PsychoticSmurf": {
+            "Air Kills": 3,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 2,
+            "Ejections": 3,
+            "Innocent Kills": 0,
+            "Kills": 3,
+            "KtoDr": 1.5,
+            "Score": 6,
+            "ScoreSpend": 4832.2523809524,
+            "SeatTime": "54h31m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 196280.32561905,
+            "rhome": 2
+        },
+        "QJW": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
@@ -2302,12 +3079,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 1183.9523809524,
-            "SeatTime": "25h07m",
+            "ScoreSpend": 0,
+            "SeatTime": "0h07m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 90463.034619048
+            "f_time_s": 457.392,
+            "rhome": 0
         },
         "R0NiN": {
             "Air Kills": 0,
@@ -2321,11 +3099,12 @@
             "KtoDr": 0,
             "Score": 0,
             "ScoreSpend": 45.6,
-            "SeatTime": "0h54m",
+            "SeatTime": "1h05m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3276.7784761905
+            "f_time_s": 3914.6794761905,
+            "rhome": 0
         },
         "RAIN 2-1 | Timmitucker": {
             "Air Kills": 0,
@@ -2343,7 +3122,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5435.1052380952
+            "f_time_s": 5435.1052380952,
+            "rhome": 0
         },
         "RAIN1-1 -Timmitucker": {
             "Air Kills": 0,
@@ -2361,7 +3141,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 10333.283714286
+            "f_time_s": 10333.283714286,
+            "rhome": 0
+        },
+        "Rambler 1-1 l Kulea": {
+            "Air Kills": 8,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 3,
+            "Ejections": 1,
+            "Innocent Kills": 0,
+            "Kills": 26,
+            "KtoDr": 8.6666666666667,
+            "Score": 55.2,
+            "ScoreSpend": 588.4,
+            "SeatTime": "12h57m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 18,
+            "f_time_s": 46636.961,
+            "rhome": 5
         },
         "Rcflyer40T": {
             "Air Kills": 0,
@@ -2379,7 +3179,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2275.9728095238
+            "f_time_s": 2275.9728095238,
+            "rhome": 0
         },
         "Refugee 3-4 | Markus": {
             "Air Kills": 0,
@@ -2392,12 +3193,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 173.4,
-            "SeatTime": "1h29m",
+            "ScoreSpend": 398.5,
+            "SeatTime": "6h44m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5359.2843333333
+            "f_time_s": 24278.137333333,
+            "rhome": 0
         },
         "Refugee 9-2 I Gibson": {
             "Air Kills": 0,
@@ -2410,12 +3212,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 159,
-            "SeatTime": "2h52m",
+            "ScoreSpend": 302.5,
+            "SeatTime": "5h00m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 10324.849333333
+            "f_time_s": 18028.414333333,
+            "rhome": 0
         },
         "Refugee 9-3 | Hunter": {
             "Air Kills": 0,
@@ -2428,12 +3231,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 84.2,
-            "SeatTime": "1h42m",
+            "ScoreSpend": 169,
+            "SeatTime": "3h50m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6152.5833809524
+            "f_time_s": 13821.049380952,
+            "rhome": 0
         },
         "Reinn0021": {
             "Air Kills": 0,
@@ -2451,25 +3255,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 54004.448666667
+            "f_time_s": 54004.448666667,
+            "rhome": 0
         },
         "Roadkill": {
-            "Air Kills": 0,
+            "Air Kills": 4,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
+            "Deaths": 1,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 37,
-            "SeatTime": "0h50m",
+            "Kills": 7,
+            "KtoDr": 7,
+            "Score": 15.5,
+            "ScoreSpend": 104.5,
+            "SeatTime": "2h07m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 3013.2823809524
+            "Unit Kills": 3,
+            "f_time_s": 7646.5793809524,
+            "rhome": 1
         },
         "Rob_GT81": {
             "Air Kills": 0,
@@ -2482,12 +3288,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 0,
-            "SeatTime": "0h14m",
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h54m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 880.52066666667
+            "f_time_s": 3273.8806666667,
+            "rhome": 0
         },
         "Rumble 1-1 | Codus": {
             "Air Kills": 0,
@@ -2505,7 +3312,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7911.4446190476
+            "f_time_s": 7911.4446190476,
+            "rhome": 0
         },
         "Ryu8200": {
             "Air Kills": 0,
@@ -2523,7 +3331,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 7804.9138095238
+            "f_time_s": 7804.9138095238,
+            "rhome": 0
         },
         "SF3": {
             "Air Kills": 0,
@@ -2541,7 +3350,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2249.9970952381
+            "f_time_s": 2249.9970952381,
+            "rhome": 0
         },
         "SHOOTER 4-2 [SFAL]": {
             "Air Kills": 0,
@@ -2554,30 +3364,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 59.6,
-            "SeatTime": "8h01m",
+            "ScoreSpend": 121.4,
+            "SeatTime": "9h07m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 28870.672809524
+            "f_time_s": 32854.578809524,
+            "rhome": 0
         },
         "SILVERBACK": {
-            "Air Kills": 2,
+            "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 2,
+            "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 3,
-            "KtoDr": 1.5,
-            "Score": 4.9,
-            "ScoreSpend": 152.5,
-            "SeatTime": "4h47m",
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 405.4,
+            "SeatTime": "12h51m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 1,
-            "f_time_s": 17232.973761905
+            "Unit Kills": 0,
+            "f_time_s": 46317.844761905,
+            "rhome": 0
         },
         "SKIES": {
             "Air Kills": 0,
@@ -2590,12 +3402,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 387.57142857143,
-            "SeatTime": "12h28m",
+            "ScoreSpend": 499.77142857143,
+            "SeatTime": "15h19m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 44892.68352381
+            "f_time_s": 55173.05552381,
+            "rhome": 0
+        },
+        "SKUNK 2-1 | Woodstock": {
+            "Air Kills": 0,
+            "Building Kills": 2,
+            "CratesLoaded": 10,
+            "Create": 0,
+            "Deaths": 8,
+            "Ejections": 0,
+            "Innocent Kills": 1,
+            "Kills": 10,
+            "KtoDr": 1.25,
+            "Score": 55.9,
+            "ScoreSpend": 1724.9,
+            "SeatTime": "31h45m",
+            "Ship Kills": 0,
+            "Troops": 7,
+            "Unit Kills": 10,
+            "f_time_s": 114305.05,
+            "rhome": 15
         },
         "SNAKE 1-1 | ÇÔßRÂ": {
             "Air Kills": 0,
@@ -2613,7 +3445,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 191.40104761905
+            "f_time_s": 191.40104761905,
+            "rhome": 0
+        },
+        "Sadpan": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 37.8,
+            "SeatTime": "0h57m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3461.477,
+            "rhome": 0
         },
         "Sandman1330": {
             "Air Kills": 0,
@@ -2631,25 +3483,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 21885.407238095
+            "f_time_s": 21885.407238095,
+            "rhome": 0
         },
         "Seeker 2-1 | Nox K.": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
+            "Deaths": 3,
+            "Ejections": 2,
             "Innocent Kills": 0,
             "Kills": 0,
             "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 0,
-            "SeatTime": "0h05m",
+            "Score": -3.2,
+            "ScoreSpend": 34.6,
+            "SeatTime": "2h21m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 358.04580952381
+            "f_time_s": 8463.5518095238,
+            "rhome": 0
         },
         "Sen": {
             "Air Kills": 0,
@@ -2667,7 +3521,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 26453.150428571
+            "f_time_s": 26453.150428571,
+            "rhome": 0
         },
         "Sephryn": {
             "Air Kills": 0,
@@ -2680,30 +3535,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 1181,
-            "SeatTime": "17h13m",
+            "ScoreSpend": 1180,
+            "SeatTime": "17h24m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 61999.936952381
+            "f_time_s": 62656.657952381,
+            "rhome": 0
         },
         "Serenity 1-1 | 16AGR Snow": {
-            "Air Kills": 0,
+            "Air Kills": 15,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
+            "Deaths": 5,
+            "Ejections": 6,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 283.8,
-            "SeatTime": "2h52m",
+            "Kills": 15,
+            "KtoDr": 3,
+            "Score": 34.2,
+            "ScoreSpend": 468,
+            "SeatTime": "6h16m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 10365.641
+            "f_time_s": 22609.544,
+            "rhome": 3
         },
         "Seth": {
             "Air Kills": 0,
@@ -2721,79 +3578,122 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2693.538047619
+            "f_time_s": 2693.538047619,
+            "rhome": 0
         },
         "Sexy Flanders": {
             "Air Kills": 0,
             "Building Kills": 0,
-            "CratesLoaded": 5,
-            "Create": 1,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 312.9,
+            "SeatTime": "12h04m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 43478.593809524,
+            "rhome": 0
+        },
+        "Sh4rk": {
+            "Air Kills": 2,
+            "Building Kills": 0,
+            "CratesLoaded": 1,
+            "Create": 0,
+            "Deaths": 3,
+            "Ejections": 1,
+            "Innocent Kills": 0,
+            "Kills": 2,
+            "KtoDr": 0.66666666666667,
+            "Score": 3.2,
+            "ScoreSpend": 445.9,
+            "SeatTime": "10h52m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 39173.518761905,
+            "rhome": 2
+        },
+        "Shadow": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h05m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 358.2,
+            "rhome": 0
+        },
+        "Sharkku": {
+            "Air Kills": 36,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 12,
+            "Ejections": 2,
+            "Innocent Kills": 0,
+            "Kills": 51,
+            "KtoDr": 4.25,
+            "Score": 111.1,
+            "ScoreSpend": 3485.0666666667,
+            "SeatTime": "66h17m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 15,
+            "f_time_s": 238664.1097619,
+            "rhome": 12
+        },
+        "Shotgun Dexter": {
+            "Air Kills": 16,
+            "Building Kills": 0,
+            "CratesLoaded": 64,
+            "Create": 22,
+            "Deaths": 11,
+            "Ejections": 3,
+            "Innocent Kills": 0,
+            "Kills": 174,
+            "KtoDr": 15.818181818182,
+            "Score": 503.7,
+            "ScoreSpend": 10142.514285714,
+            "SeatTime": "268h34m",
+            "Ship Kills": 0,
+            "Troops": 5,
+            "Unit Kills": 158,
+            "f_time_s": 966869.84166667,
+            "rhome": 57
+        },
+        "Silverback": {
+            "Air Kills": 7,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
             "Deaths": 2,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 19.5,
-            "ScoreSpend": 290.5,
-            "SeatTime": "9h06m",
-            "Ship Kills": 0,
-            "Troops": 3,
-            "Unit Kills": 0,
-            "f_time_s": 32763.737809524
-        },
-        "Sh4rk": {
-            "Air Kills": 0,
-            "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 136.8,
-            "SeatTime": "1h21m",
+            "Kills": 28,
+            "KtoDr": 14,
+            "Score": 59.9,
+            "ScoreSpend": 586.1,
+            "SeatTime": "12h13m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 4897.0187619048
-        },
-        "Sharkku": {
-            "Air Kills": 0,
-            "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 818.66666666667,
-            "SeatTime": "26h29m",
-            "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 95361.755761905
-        },
-        "Shotgun Dexter": {
-            "Air Kills": 0,
-            "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 1402.7142857143,
-            "SeatTime": "173h00m",
-            "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 622819.49766667
+            "Unit Kills": 21,
+            "f_time_s": 44005.104,
+            "rhome": 14
         },
         "Silvio": {
             "Air Kills": 0,
@@ -2811,7 +3711,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3686.2498095238
+            "f_time_s": 3686.2498095238,
+            "rhome": 0
+        },
+        "Sirikin": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 209.8,
+            "SeatTime": "1h21m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 4885.442,
+            "rhome": 0
+        },
+        "Sjt.Yuri": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 11.4,
+            "SeatTime": "0h35m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 2150.476,
+            "rhome": 0
         },
         "Skid": {
             "Air Kills": 0,
@@ -2829,7 +3768,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6292.1398571429
+            "f_time_s": 6292.1398571429,
+            "rhome": 0
+        },
+        "Slopper": {
+            "Air Kills": 6,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 3,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 6,
+            "KtoDr": 2,
+            "Score": 12,
+            "ScoreSpend": 91,
+            "SeatTime": "1h31m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 5487.189,
+            "rhome": 5
         },
         "Smack": {
             "Air Kills": 0,
@@ -2847,7 +3806,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6731.8643333333
+            "f_time_s": 6731.8643333333,
+            "rhome": 0
         },
         "Smoke 6-8 | FroZone": {
             "Air Kills": 0,
@@ -2865,7 +3825,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2650.0927619048
+            "f_time_s": 2650.0927619048,
+            "rhome": 0
         },
         "Snagger 1-1 Mikey": {
             "Air Kills": 0,
@@ -2883,7 +3844,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4437.0741904762
+            "f_time_s": 4437.0741904762,
+            "rhome": 0
         },
         "Snagger 1-2 | InvalidFace": {
             "Air Kills": 0,
@@ -2901,7 +3863,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3104.946952381
+            "f_time_s": 3104.946952381,
+            "rhome": 0
         },
         "Snagger 1-3 - Reardon": {
             "Air Kills": 0,
@@ -2919,7 +3882,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2575.5735238095
+            "f_time_s": 2575.5735238095,
+            "rhome": 0
         },
         "Snooper": {
             "Air Kills": 0,
@@ -2932,12 +3896,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 615.2380952381,
-            "SeatTime": "5h16m",
+            "ScoreSpend": 650.6380952381,
+            "SeatTime": "6h51m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 19007.751190476
+            "f_time_s": 24682.396190476,
+            "rhome": 0
         },
         "Snowblind": {
             "Air Kills": 0,
@@ -2955,7 +3920,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3809.0726666667
+            "f_time_s": 3809.0726666667,
+            "rhome": 0
         },
         "SomethingSimple": {
             "Air Kills": 0,
@@ -2973,7 +3939,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2560.4349047619
+            "f_time_s": 2560.4349047619,
+            "rhome": 0
+        },
+        "Soupernoob": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 45.6,
+            "SeatTime": "2h48m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 10089.933,
+            "rhome": 0
+        },
+        "Sourisher": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h19m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 1155.868,
+            "rhome": 0
         },
         "Spaceman": {
             "Air Kills": 0,
@@ -2991,7 +3996,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 68493.228833333
+            "f_time_s": 68493.228833333,
+            "rhome": 0
+        },
+        "Spaerhaedt": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 33.2,
+            "SeatTime": "2h29m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 8961.585,
+            "rhome": 0
         },
         "Spark 1-1 | Herastean": {
             "Air Kills": 0,
@@ -3009,7 +4034,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4337.4765238095
+            "f_time_s": 4337.4765238095,
+            "rhome": 0
         },
         "Spectre": {
             "Air Kills": 0,
@@ -3027,7 +4053,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2020.81
+            "f_time_s": 2020.81,
+            "rhome": 0
         },
         "Speedracer": {
             "Air Kills": 0,
@@ -3045,25 +4072,84 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 17950.971761905
+            "f_time_s": 17950.971761905,
+            "rhome": 0
         },
         "Speedy 3-2 | Jordie": {
-            "Air Kills": 2,
+            "Air Kills": 7,
             "Building Kills": 0,
-            "CratesLoaded": 49,
-            "Create": 16,
-            "Deaths": 4,
+            "CratesLoaded": 100,
+            "Create": 32,
+            "Deaths": 16,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 101,
+            "KtoDr": 6.3125,
+            "Score": 394.7,
+            "ScoreSpend": 12068.719047619,
+            "SeatTime": "121h11m",
+            "Ship Kills": 0,
+            "Troops": 3,
+            "Unit Kills": 94,
+            "f_time_s": 436294.85876191,
+            "rhome": 55
+        },
+        "Spunk 1 | Beefhorn": {
+            "Air Kills": 1,
+            "Building Kills": 0,
+            "CratesLoaded": 3,
+            "Create": 0,
+            "Deaths": 2,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 4,
+            "KtoDr": 2,
+            "Score": 10.7,
+            "ScoreSpend": 62.7,
+            "SeatTime": "1h52m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 3,
+            "f_time_s": 6724.101,
+            "rhome": 4
+        },
+        "Spunk 1 | Big Kummer": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": -1.2,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h25m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 1521.931,
+            "rhome": 1
+        },
+        "Spunk 2 | Brodie": {
+            "Air Kills": 28,
+            "Building Kills": 0,
+            "CratesLoaded": 62,
+            "Create": 14,
+            "Deaths": 16,
             "Ejections": 2,
             "Innocent Kills": 0,
-            "Kills": 16,
-            "KtoDr": 4,
-            "Score": 130.2,
-            "ScoreSpend": 2584.619047619,
-            "SeatTime": "04:05:50",
+            "Kills": 79,
+            "KtoDr": 4.9375,
+            "Score": 272,
+            "ScoreSpend": 1467.8,
+            "SeatTime": "14h37m",
             "Ship Kills": 0,
-            "Troops": 2,
-            "Unit Kills": 14,
-            "f_time_s": 101150.55376191
+            "Troops": 1,
+            "Unit Kills": 51,
+            "f_time_s": 52643.531,
+            "rhome": 39
         },
         "Stix": {
             "Air Kills": 0,
@@ -3081,7 +4167,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2415.2610952381
+            "f_time_s": 2415.2610952381,
+            "rhome": 0
         },
         "SupBrodie": {
             "Air Kills": 0,
@@ -3099,7 +4186,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4076.7293809524
+            "f_time_s": 4076.7293809524,
+            "rhome": 0
         },
         "Survival 1-1": {
             "Air Kills": 0,
@@ -3117,61 +4205,103 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4317.1474761905
+            "f_time_s": 4317.1474761905,
+            "rhome": 0
         },
         "TAW_Keris": {
-            "Air Kills": 11,
-            "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
-            "Deaths": 1,
-            "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 12,
-            "KtoDr": 12,
-            "Score": 29.5,
-            "ScoreSpend": 330.80952380952,
-            "SeatTime": "7h46m",
-            "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 1,
-            "f_time_s": 27988.57652381
-        },
-        "TORRO8-4": {
             "Air Kills": 0,
-            "Building Kills": 0,
-            "CratesLoaded": 5,
-            "Create": 2,
-            "Deaths": 3,
-            "Ejections": 1,
-            "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 6.4,
-            "ScoreSpend": 255.52380952381,
-            "SeatTime": "4h27m",
-            "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 16051.944519048
-        },
-        "Talon 1-5 | NaCH": {
-            "Air Kills": 1,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 1,
-            "KtoDr": 1,
-            "Score": 2.6,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 493.50952380952,
+            "SeatTime": "10h52m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 39173.50952381,
+            "rhome": 0
+        },
+        "TIGGER 1-1": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h10m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 618.902,
+            "rhome": 0
+        },
+        "TORRO": {
+            "Air Kills": 10,
+            "Building Kills": 0,
+            "CratesLoaded": 59,
+            "Create": 10,
+            "Deaths": 11,
+            "Ejections": 3,
+            "Innocent Kills": 0,
+            "Kills": 40,
+            "KtoDr": 3.6363636363636,
+            "Score": 191,
+            "ScoreSpend": 4624,
+            "SeatTime": "77h48m",
+            "Ship Kills": 0,
+            "Troops": 4,
+            "Unit Kills": 30,
+            "f_time_s": 280129.528,
+            "rhome": 49
+        },
+        "TORRO8-4": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 266.92380952381,
+            "SeatTime": "5h02m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 18170.378519048,
+            "rhome": 0
+        },
+        "Talon 1-5 | NaCH": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
             "ScoreSpend": 12.6,
             "SeatTime": "1h04m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3883.777
+            "f_time_s": 3883.777,
+            "rhome": 0
         },
         "Tarnfalk": {
             "Air Kills": 0,
@@ -3184,12 +4314,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 172.5,
-            "SeatTime": "6h07m",
+            "ScoreSpend": 248.3,
+            "SeatTime": "11h07m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 22078.557285714
+            "f_time_s": 40034.210285714,
+            "rhome": 0
         },
         "Tazer 1-1 | WombatScat": {
             "Air Kills": 0,
@@ -3207,25 +4338,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3895.694
+            "f_time_s": 3895.694,
+            "rhome": 0
         },
         "Tengu 1-1 | Golan Trevize": {
-            "Air Kills": 0,
+            "Air Kills": 4,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 133.4,
-            "SeatTime": "1h38m",
+            "Kills": 4,
+            "KtoDr": 4,
+            "Score": 10.4,
+            "ScoreSpend": 1084.3,
+            "SeatTime": "12h32m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5903.5816190476
+            "f_time_s": 45138.784619048,
+            "rhome": 1
         },
         "Timmitucker": {
             "Air Kills": 0,
@@ -3243,7 +4376,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 8212.5916190476
+            "f_time_s": 8212.5916190476,
+            "rhome": 0
         },
         "Tootall": {
             "Air Kills": 0,
@@ -3261,7 +4395,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5530.3076190476
+            "f_time_s": 5530.3076190476,
+            "rhome": 0
         },
         "Trashbag": {
             "Air Kills": 0,
@@ -3279,7 +4414,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 53602.309095238
+            "f_time_s": 53602.309095238,
+            "rhome": 0
         },
         "Trison": {
             "Air Kills": 0,
@@ -3297,7 +4433,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 9984.5313333333
+            "f_time_s": 9984.5313333333,
+            "rhome": 0
+        },
+        "Umbrella": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": -3.4,
+            "SeatTime": "2h29m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 8978.819,
+            "rhome": 0
+        },
+        "V0RTEX": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 11.4,
+            "SeatTime": "0h57m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3469.106,
+            "rhome": 0
         },
         "VF-111 | \"Nero\" Red 1-3": {
             "Air Kills": 0,
@@ -3315,7 +4490,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4088.9587619048
+            "f_time_s": 4088.9587619048,
+            "rhome": 0
         },
         "VF-141 Ac3": {
             "Air Kills": 0,
@@ -3333,7 +4509,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4534.8416666667
+            "f_time_s": 4534.8416666667,
+            "rhome": 0
+        },
+        "VFA-113 | Hank | 312": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h07m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 430.738,
+            "rhome": 0
         },
         "VFA-141 | AlphaGator": {
             "Air Kills": 0,
@@ -3347,11 +4543,31 @@
             "KtoDr": 0,
             "Score": 0,
             "ScoreSpend": 37.8,
-            "SeatTime": "0h54m",
+            "SeatTime": "1h06m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3279.6337619048
+            "f_time_s": 4003.0337619048,
+            "rhome": 0
+        },
+        "VFA-83 | Lucutus | 300": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0.2,
+            "SeatTime": "0h43m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 2617.095,
+            "rhome": 0
         },
         "Vicius": {
             "Air Kills": 0,
@@ -3364,12 +4580,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 3092.4761904762,
-            "SeatTime": "8h03m",
+            "ScoreSpend": 3280.3761904762,
+            "SeatTime": "18h37m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 28985.084857143
+            "f_time_s": 67048.461857143,
+            "rhome": 0
         },
         "Victory 1-4 | Sadpan": {
             "Air Kills": 0,
@@ -3387,7 +4604,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4093.9705714286
+            "f_time_s": 4093.9705714286,
+            "rhome": 0
         },
         "Viking": {
             "Air Kills": 0,
@@ -3405,7 +4623,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1552.3116190476
+            "f_time_s": 1552.3116190476,
+            "rhome": 0
+        },
+        "Voodoo 1-1 l Avris": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 10.6,
+            "SeatTime": "1h00m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 3617.079,
+            "rhome": 0
         },
         "Voodoo One": {
             "Air Kills": 0,
@@ -3423,7 +4661,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3791.3307142857
+            "f_time_s": 3791.3307142857,
+            "rhome": 0
         },
         "Voodoo Ranger": {
             "Air Kills": 0,
@@ -3441,7 +4680,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4101.4882857143
+            "f_time_s": 4101.4882857143,
+            "rhome": 0
         },
         "WheelHouse": {
             "Air Kills": 0,
@@ -3459,7 +4699,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5761.4155238095
+            "f_time_s": 5761.4155238095,
+            "rhome": 0
         },
         "Whiskey": {
             "Air Kills": 0,
@@ -3477,7 +4718,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3592.3229047619
+            "f_time_s": 3592.3229047619,
+            "rhome": 0
+        },
+        "Widow 1-1 | kaL": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 81.6,
+            "SeatTime": "8h56m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 32218.83,
+            "rhome": 0
         },
         "Wild 1-2 | Jetti": {
             "Air Kills": 0,
@@ -3495,26 +4756,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5463.3427619048
+            "f_time_s": 5463.3427619048,
+            "rhome": 0
         },
         "Wildcat": {
             "Air Kills": 0,
             "Building Kills": 0,
-            "CratesLoaded": 24,
-            "Create": 2,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": -1.2,
+            "ScoreSpend": 2848.2,
+            "SeatTime": "53h47m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 193635.484,
+            "rhome": 0
+        },
+        "Wildcat 1-1": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
             "Kills": 0,
             "KtoDr": 0,
-            "Modified": "1:29:50",
-            "Score": 45.4,
-            "ScoreSpend": 580.4,
-            "SeatTime": "0h53m",
+            "Score": 0,
+            "ScoreSpend": 387.2,
+            "SeatTime": "7h36m",
             "Ship Kills": 0,
-            "Troops": 2,
+            "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3204.8
+            "f_time_s": 27409.562,
+            "rhome": 0
         },
         "Wildcat 1-1 | tadpole": {
             "Air Kills": 0,
@@ -3532,7 +4813,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3273.1086666667
+            "f_time_s": 3273.1086666667,
+            "rhome": 0
         },
         "Wildcutter": {
             "Air Kills": 0,
@@ -3545,12 +4827,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 6.6999999999999,
-            "SeatTime": "3h50m",
+            "ScoreSpend": 882.9,
+            "SeatTime": "21h51m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 13806.401190476
+            "f_time_s": 78683.465190476,
+            "rhome": 0
         },
         "Wolf 1-1 | Ragnaroy": {
             "Air Kills": 0,
@@ -3568,7 +4851,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1542.7311428571
+            "f_time_s": 1542.7311428571,
+            "rhome": 0
         },
         "XerxesPlayZ": {
             "Air Kills": 0,
@@ -3586,26 +4870,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2035.7113333333
+            "f_time_s": 2035.7113333333,
+            "rhome": 0
         },
         "Ziptie": {
-            "Air Kills": 4,
-            "Building Kills": 0,
+            "Air Kills": 26,
+            "Building Kills": 1,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
+            "Deaths": 10,
+            "Ejections": 3,
             "Innocent Kills": 0,
-            "Kills": 5,
-            "KtoDr": 5,
-            "Modified": "1:17:27",
-            "Score": 12.5,
-            "ScoreSpend": 1347.5,
-            "SeatTime": "70h26m",
+            "Kills": 43,
+            "KtoDr": 4.3,
+            "Score": 98.4,
+            "ScoreSpend": 5719.2,
+            "SeatTime": "128h30m",
             "Ship Kills": 0,
-            "Troops": 0,
-            "Unit Kills": 1,
-            "f_time_s": 253618.58657143
+            "Troops": 1,
+            "Unit Kills": 17,
+            "f_time_s": 462616.11757143,
+            "rhome": 12
         },
         "[167TH] PUNIISHER 946": {
             "Air Kills": 0,
@@ -3618,12 +4903,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": -29.2,
-            "SeatTime": "1h55m",
+            "ScoreSpend": -30.2,
+            "SeatTime": "2h19m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6940.5437619048
+            "f_time_s": 8353.5137619048,
+            "rhome": 0
+        },
+        "[16AGR] Viper": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 61,
+            "SeatTime": "1h27m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 5269.067,
+            "rhome": 0
         },
         "[16AGR] bertibott": {
             "Air Kills": 0,
@@ -3641,25 +4946,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2533.2397619048
+            "f_time_s": 2533.2397619048,
+            "rhome": 0
         },
         "[1stROF] Vinchante": {
-            "Air Kills": 6,
+            "Air Kills": 12,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 0,
-            "Ejections": 0,
+            "Deaths": 15,
+            "Ejections": 1,
             "Innocent Kills": 0,
-            "Kills": 7,
-            "KtoDr": 7,
-            "Score": 17.7,
-            "ScoreSpend": 643.98571428571,
-            "SeatTime": "13h04m",
+            "Kills": 33,
+            "KtoDr": 2.2,
+            "Score": 57.5,
+            "ScoreSpend": 2856.0857142857,
+            "SeatTime": "63h20m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 1,
-            "f_time_s": 47088.48
+            "Unit Kills": 21,
+            "f_time_s": 228053.119,
+            "rhome": 13
         },
         "[355th] Gunfighter": {
             "Air Kills": 0,
@@ -3672,12 +4979,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 673.61904761905,
-            "SeatTime": "12h18m",
+            "ScoreSpend": 872.91904761905,
+            "SeatTime": "21h39m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 44321.44147619
+            "f_time_s": 77987.46747619,
+            "rhome": 0
         },
         "[355th] Santa King": {
             "Air Kills": 0,
@@ -3695,7 +5003,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5894.1698095238
+            "f_time_s": 5894.1698095238,
+            "rhome": 0
         },
         "[355th] Tuk": {
             "Air Kills": 0,
@@ -3713,7 +5022,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4107.3800952381
+            "f_time_s": 4107.3800952381,
+            "rhome": 0
         },
         "[CVW-69] SacredFlea": {
             "Air Kills": 0,
@@ -3731,25 +5041,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 11380.768666667
+            "f_time_s": 11380.768666667,
+            "rhome": 0
         },
         "[FTQ] Chesty": {
-            "Air Kills": 22,
+            "Air Kills": 4,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 14,
-            "Ejections": 7,
+            "Deaths": 8,
+            "Ejections": 2,
             "Innocent Kills": 0,
-            "Kills": 23,
-            "KtoDr": 1.6428571428571,
-            "Score": 46.3,
-            "ScoreSpend": 551.7619047619,
-            "SeatTime": "26h09m",
-            "Ship Kills": 1,
+            "Kills": 14,
+            "KtoDr": 1.75,
+            "Score": 22.2,
+            "ScoreSpend": 940.5619047619,
+            "SeatTime": "53h29m",
+            "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 94184.329380952
+            "Unit Kills": 10,
+            "f_time_s": 192563.31938095,
+            "rhome": 7
         },
         "[FTQ] Final_Revenge": {
             "Air Kills": 0,
@@ -3767,43 +5079,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 14937.699333333
+            "f_time_s": 14937.699333333,
+            "rhome": 0
         },
         "[FTQ]1-1 Final_Revenge": {
-            "Air Kills": 2,
-            "Building Kills": 0,
-            "CratesLoaded": 34,
-            "Create": 9,
-            "Deaths": 10,
-            "Ejections": 3,
-            "Innocent Kills": 2,
-            "Kills": 2,
-            "KtoDr": 0.2,
-            "Score": 66.5,
-            "ScoreSpend": 1291.8571428571,
-            "SeatTime": "15h11m",
-            "Ship Kills": 0,
-            "Troops": 5,
-            "Unit Kills": 0,
-            "f_time_s": 54680.13047619
-        },
-        "[GM] PravusJSB": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 2,
+            "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
             "Kills": 0,
             "KtoDr": 0,
-            "Score": -2.4,
-            "ScoreSpend": 16663.714285714,
-            "SeatTime": "82h40m",
+            "Score": 0,
+            "ScoreSpend": 2426.7571428571,
+            "SeatTime": "32h39m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 297653.61982539
+            "f_time_s": 117598.75747619,
+            "rhome": 0
+        },
+        "[GM] PravusJSB": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 2,
+            "Create": 0,
+            "Deaths": 1,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 1.6,
+            "ScoreSpend": 16889.214285714,
+            "SeatTime": "94h21m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 339706.23082539,
+            "rhome": 5
         },
         "[GR-GCI] Chariot": {
             "Air Kills": 0,
@@ -3821,7 +5136,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 18109.505857143
+            "f_time_s": 18109.505857143,
+            "rhome": 0
         },
         "[GR-GCI] SolarPilot": {
             "Air Kills": 0,
@@ -3839,7 +5155,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3069.8779047619
+            "f_time_s": 3069.8779047619,
+            "rhome": 0
         },
         "[GRAV] BULL": {
             "Air Kills": 0,
@@ -3857,7 +5174,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 22791.245190476
+            "f_time_s": 22791.245190476,
+            "rhome": 0
         },
         "[GR] BULL": {
             "Air Kills": 0,
@@ -3875,7 +5193,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 164058.33661905
+            "f_time_s": 164058.33661905,
+            "rhome": 0
         },
         "[GR] Dev Dev": {
             "Air Kills": 0,
@@ -3893,7 +5212,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 32400.36852381
+            "f_time_s": 32400.36852381,
+            "rhome": 0
         },
         "[GR] DevDev": {
             "Air Kills": 0,
@@ -3911,7 +5231,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3767.9803333333
+            "f_time_s": 3767.9803333333,
+            "rhome": 0
         },
         "[GR] Kingston": {
             "Air Kills": 0,
@@ -3929,7 +5250,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 4923.0452857143
+            "f_time_s": 4923.0452857143,
+            "rhome": 0
         },
         "[GR] Roadkill": {
             "Air Kills": 0,
@@ -3942,12 +5264,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 366.47619047619,
-            "SeatTime": "5h19m",
+            "ScoreSpend": 642.77619047619,
+            "SeatTime": "9h05m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 19153.669333333
+            "f_time_s": 32748.818333333,
+            "rhome": 0
         },
         "[TN] Thumper": {
             "Air Kills": 0,
@@ -3965,25 +5288,27 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 20.329047619047
+            "f_time_s": 20.329047619047,
+            "rhome": 0
         },
         "[TWB]LTRMcrew": {
             "Air Kills": 0,
             "Building Kills": 0,
-            "CratesLoaded": 0,
-            "Create": 0,
+            "CratesLoaded": 17,
+            "Create": 6,
             "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 0,
-            "ScoreSpend": 1094.1904761905,
-            "SeatTime": "16h53m",
+            "Kills": 1,
+            "KtoDr": 1,
+            "Score": 34.3,
+            "ScoreSpend": 3828.3904761905,
+            "SeatTime": "40h47m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 0,
-            "f_time_s": 60823.638809524
+            "Unit Kills": 1,
+            "f_time_s": 146871.94180952,
+            "rhome": 11
         },
         "[TWB]Sauerkraut": {
             "Air Kills": 0,
@@ -4001,7 +5326,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 1921.3621428571
+            "f_time_s": 1921.3621428571,
+            "rhome": 0
         },
         "[XSAF] PatatOorlog": {
             "Air Kills": 0,
@@ -4014,12 +5340,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 223.90476190476,
-            "SeatTime": "8h51m",
+            "ScoreSpend": 829.10476190476,
+            "SeatTime": "24h12m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 31869.490714286
+            "f_time_s": 87135.622714286,
+            "rhome": 0
         },
         "[XSAF] Raven": {
             "Air Kills": 0,
@@ -4037,43 +5364,84 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 12018.243285714
+            "f_time_s": 12018.243285714,
+            "rhome": 0
         },
         "[XSAF]Drif": {
             "Air Kills": 0,
             "Building Kills": 0,
-            "CratesLoaded": 15,
-            "Create": 1,
-            "Deaths": 1,
-            "Ejections": 0,
-            "Innocent Kills": 0,
-            "Kills": 0,
-            "KtoDr": 0,
-            "Score": 30.2,
-            "ScoreSpend": 1342.4761904762,
-            "SeatTime": "15h44m",
-            "Ship Kills": 0,
-            "Troops": 2,
-            "Unit Kills": 0,
-            "f_time_s": 56675.676095238
-        },
-        "[XS]Spark 1-1 | Herastean": {
-            "Air Kills": 0,
-            "Building Kills": 0,
-            "CratesLoaded": 12,
+            "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 1,
+            "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
             "Kills": 0,
             "KtoDr": 0,
-            "Score": 15.6,
-            "ScoreSpend": 436.19047619048,
-            "SeatTime": "9h53m",
+            "Score": 0,
+            "ScoreSpend": 2501.1761904762,
+            "SeatTime": "39h01m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 35611.305190476
+            "f_time_s": 140513.54309524,
+            "rhome": 0
+        },
+        "[XS] Markus": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 486.4,
+            "SeatTime": "4h50m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 17414.536,
+            "rhome": 0
+        },
+        "[XS]Spark 1-1 | Herastean": {
+            "Air Kills": 3,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 2,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 3,
+            "KtoDr": 1.5,
+            "Score": 5.4,
+            "ScoreSpend": 580.29047619048,
+            "SeatTime": "19h42m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 70934.957190476,
+            "rhome": 0
+        },
+        "bikerboy": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 0,
+            "SeatTime": "0h01m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 108.516,
+            "rhome": 0
         },
         "breakfast": {
             "Air Kills": 0,
@@ -4086,12 +5454,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 12.2,
-            "SeatTime": "0h37m",
+            "ScoreSpend": 21.2,
+            "SeatTime": "2h33m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2256.3084761905
+            "f_time_s": 9221.5474761905,
+            "rhome": 0
+        },
+        "darkmsx": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 255.2,
+            "SeatTime": "6h23m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 23026.879,
+            "rhome": 0
         },
         "der_Wolfen": {
             "Air Kills": 0,
@@ -4109,7 +5497,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 3170.8935238095
+            "f_time_s": 3170.8935238095,
+            "rhome": 0
         },
         "fastfed": {
             "Air Kills": 0,
@@ -4127,7 +5516,84 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5108.1527619048
+            "f_time_s": 5108.1527619048,
+            "rhome": 0
+        },
+        "flyingmunkey": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 22.8,
+            "SeatTime": "0h47m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 2873.571,
+            "rhome": 0
+        },
+        "flyingtothemoon": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 10.2,
+            "SeatTime": "1h07m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 4064.431,
+            "rhome": 0
+        },
+        "furloughed": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 146.2,
+            "SeatTime": "4h17m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 15460.718,
+            "rhome": 0
+        },
+        "gomslork": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": -1.2,
+            "SeatTime": "0h06m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 388.422,
+            "rhome": 0
         },
         "indyjons": {
             "Air Kills": 0,
@@ -4140,12 +5606,13 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 143.4,
-            "SeatTime": "3h46m",
+            "ScoreSpend": 810.3,
+            "SeatTime": "7h35m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 13580.73252381
+            "f_time_s": 27302.74152381,
+            "rhome": 0
         },
         "jjbloon": {
             "Air Kills": 0,
@@ -4159,11 +5626,12 @@
             "KtoDr": 0,
             "Score": 0,
             "ScoreSpend": 2539.5714285714,
-            "SeatTime": "38h12m",
+            "SeatTime": "38h15m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 137552.42285714
+            "f_time_s": 137721.99185714,
+            "rhome": 0
         },
         "jub": {
             "Air Kills": 0,
@@ -4181,25 +5649,46 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 13667.171571429
+            "f_time_s": 13667.171571429,
+            "rhome": 0
+        },
+        "kaL": {
+            "Air Kills": 6,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 2,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 6,
+            "KtoDr": 3,
+            "Score": 13.2,
+            "ScoreSpend": 132.8,
+            "SeatTime": "3h13m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 0,
+            "f_time_s": 11616.223,
+            "rhome": 7
         },
         "kal": {
             "Air Kills": 0,
             "Building Kills": 0,
             "CratesLoaded": 0,
             "Create": 0,
-            "Deaths": 3,
+            "Deaths": 0,
             "Ejections": 0,
             "Innocent Kills": 0,
-            "Kills": 6,
-            "KtoDr": 2,
-            "Score": 9,
-            "ScoreSpend": 33,
-            "SeatTime": "3h04m",
+            "Kills": 0,
+            "KtoDr": 0,
+            "Score": 0,
+            "ScoreSpend": 339.8,
+            "SeatTime": "17h23m",
             "Ship Kills": 0,
             "Troops": 0,
-            "Unit Kills": 6,
-            "f_time_s": 11095.436761905
+            "Unit Kills": 0,
+            "f_time_s": 62623.395761905,
+            "rhome": 0
         },
         "plyrName": {
             "airkills": 0,
@@ -4235,7 +5724,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2174.2123333333
+            "f_time_s": 2174.2123333333,
+            "rhome": 0
         },
         "ru!ner": {
             "Air Kills": 0,
@@ -4253,7 +5743,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 48361.10347619
+            "f_time_s": 48361.10347619,
+            "rhome": 0
         },
         "solidsnake": {
             "Air Kills": 0,
@@ -4271,7 +5762,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2759.8591428571
+            "f_time_s": 2759.8591428571,
+            "rhome": 0
         },
         "sourisher": {
             "Air Kills": 0,
@@ -4289,7 +5781,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2064.7052380952
+            "f_time_s": 2064.7052380952,
+            "rhome": 0
         },
         "stink": {
             "Air Kills": 0,
@@ -4307,7 +5800,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 11796.072619048
+            "f_time_s": 11796.072619048,
+            "rhome": 0
         },
         "vJaBoG 34 | Bananabrai": {
             "Air Kills": 0,
@@ -4325,7 +5819,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 6593.8897619048
+            "f_time_s": 6593.8897619048,
+            "rhome": 0
         },
         "{TFT} Crash": {
             "Air Kills": 0,
@@ -4338,12 +5833,32 @@
             "Kills": 0,
             "KtoDr": 0,
             "Score": 0,
-            "ScoreSpend": 1666.7619047619,
-            "SeatTime": "19h42m",
+            "ScoreSpend": 1841.2619047619,
+            "SeatTime": "23h01m",
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 70940.444142857
+            "f_time_s": 82867.367142857,
+            "rhome": 0
+        },
+        "{TFT} Revenge ››": {
+            "Air Kills": 0,
+            "Building Kills": 0,
+            "CratesLoaded": 0,
+            "Create": 0,
+            "Deaths": 0,
+            "Ejections": 0,
+            "Innocent Kills": 0,
+            "Kills": 3,
+            "KtoDr": 3,
+            "Score": 6.3,
+            "ScoreSpend": 18.3,
+            "SeatTime": "1h56m",
+            "Ship Kills": 0,
+            "Troops": 0,
+            "Unit Kills": 3,
+            "f_time_s": 6990.368,
+            "rhome": 5
         },
         "|269| Digidydog": {
             "Air Kills": 0,
@@ -4361,7 +5876,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 5249.0182380952
+            "f_time_s": 5249.0182380952,
+            "rhome": 0
         },
         "|269| MightyEagle": {
             "Air Kills": 0,
@@ -4379,7 +5895,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 10275.486047619
+            "f_time_s": 10275.486047619,
+            "rhome": 0
         },
         "|269| Voodoo Ranger": {
             "Air Kills": 0,
@@ -4397,7 +5914,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 41454.228095238
+            "f_time_s": 41454.228095238,
+            "rhome": 0
         },
         "|269| Wildcutter": {
             "Air Kills": 0,
@@ -4415,7 +5933,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 2816.319
+            "f_time_s": 2816.319,
+            "rhome": 0
         },
         "|269|Voodoo Ranger": {
             "Air Kills": 0,
@@ -4433,7 +5952,8 @@
             "Ship Kills": 0,
             "Troops": 0,
             "Unit Kills": 0,
-            "f_time_s": 20370.560571429
+            "f_time_s": 20370.560571429,
+            "rhome": 0
         }
     }
 }
